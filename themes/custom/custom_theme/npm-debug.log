@@ -1,0 +1,1897 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@2.15.11
+3 info using node@v4.6.2
+4 verbose readDependencies loading dependencies from /var/www/drupalvm/web/themes/custom/custom_theme/package.json
+5 verbose install where, deps [ '/var/www/drupalvm/web/themes/custom/custom_theme',
+5 verbose install   [ 'autoprefixer',
+5 verbose install     'bower',
+5 verbose install     'es6-promise',
+5 verbose install     'gulp',
+5 verbose install     'gulp-bower',
+5 verbose install     'gulp-clean',
+5 verbose install     'gulp-postcss',
+5 verbose install     'gulp-sass',
+5 verbose install     'gulp-sourcemaps',
+5 verbose install     'run-sequence' ] ]
+6 verbose install where, peers [ '/var/www/drupalvm/web/themes/custom/custom_theme', [] ]
+7 verbose installManyTop reading for lifecycle /var/www/drupalvm/web/themes/custom/custom_theme/package.json
+8 info preinstall mtech_custom_theme@1.0.0
+9 verbose readDependencies loading dependencies from /var/www/drupalvm/web/themes/custom/custom_theme/package.json
+10 silly cache add args [ 'autoprefixer@^6.5.0', null ]
+11 verbose cache add spec autoprefixer@^6.5.0
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'autoprefixer@^6.5.0',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'autoprefixer',
+12 silly cache add   rawSpec: '^6.5.0',
+12 silly cache add   spec: '>=6.5.0 <7.0.0',
+12 silly cache add   type: 'range' }
+13 silly addNamed autoprefixer@>=6.5.0 <7.0.0
+14 verbose addNamed ">=6.5.0 <7.0.0" is a valid semver range for autoprefixer
+15 silly addNameRange { name: 'autoprefixer', range: '>=6.5.0 <7.0.0', hasData: false }
+16 silly mapToRegistry name autoprefixer
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: 'autoprefixer',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   name: 'autoprefixer',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/autoprefixer
+21 verbose addNameRange registry:https://registry.npmjs.org/autoprefixer not in flight; fetching
+22 silly cache add args [ 'bower@^1.7.9', null ]
+23 verbose cache add spec bower@^1.7.9
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: 'bower@^1.7.9',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'bower',
+24 silly cache add   rawSpec: '^1.7.9',
+24 silly cache add   spec: '>=1.7.9 <2.0.0',
+24 silly cache add   type: 'range' }
+25 silly addNamed bower@>=1.7.9 <2.0.0
+26 verbose addNamed ">=1.7.9 <2.0.0" is a valid semver range for bower
+27 silly addNameRange { name: 'bower', range: '>=1.7.9 <2.0.0', hasData: false }
+28 silly mapToRegistry name bower
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry data Result {
+31 silly mapToRegistry   raw: 'bower',
+31 silly mapToRegistry   scope: null,
+31 silly mapToRegistry   name: 'bower',
+31 silly mapToRegistry   rawSpec: '',
+31 silly mapToRegistry   spec: 'latest',
+31 silly mapToRegistry   type: 'tag' }
+32 silly mapToRegistry uri https://registry.npmjs.org/bower
+33 verbose addNameRange registry:https://registry.npmjs.org/bower not in flight; fetching
+34 silly cache add args [ 'es6-promise@^4.0.3', null ]
+35 verbose cache add spec es6-promise@^4.0.3
+36 silly cache add parsed spec Result {
+36 silly cache add   raw: 'es6-promise@^4.0.3',
+36 silly cache add   scope: null,
+36 silly cache add   name: 'es6-promise',
+36 silly cache add   rawSpec: '^4.0.3',
+36 silly cache add   spec: '>=4.0.3 <5.0.0',
+36 silly cache add   type: 'range' }
+37 silly addNamed es6-promise@>=4.0.3 <5.0.0
+38 verbose addNamed ">=4.0.3 <5.0.0" is a valid semver range for es6-promise
+39 silly addNameRange { name: 'es6-promise', range: '>=4.0.3 <5.0.0', hasData: false }
+40 silly mapToRegistry name es6-promise
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry data Result {
+43 silly mapToRegistry   raw: 'es6-promise',
+43 silly mapToRegistry   scope: null,
+43 silly mapToRegistry   name: 'es6-promise',
+43 silly mapToRegistry   rawSpec: '',
+43 silly mapToRegistry   spec: 'latest',
+43 silly mapToRegistry   type: 'tag' }
+44 silly mapToRegistry uri https://registry.npmjs.org/es6-promise
+45 verbose addNameRange registry:https://registry.npmjs.org/es6-promise not in flight; fetching
+46 silly cache add args [ 'gulp@^3.9.1', null ]
+47 verbose cache add spec gulp@^3.9.1
+48 silly cache add parsed spec Result {
+48 silly cache add   raw: 'gulp@^3.9.1',
+48 silly cache add   scope: null,
+48 silly cache add   name: 'gulp',
+48 silly cache add   rawSpec: '^3.9.1',
+48 silly cache add   spec: '>=3.9.1 <4.0.0',
+48 silly cache add   type: 'range' }
+49 silly addNamed gulp@>=3.9.1 <4.0.0
+50 verbose addNamed ">=3.9.1 <4.0.0" is a valid semver range for gulp
+51 silly addNameRange { name: 'gulp', range: '>=3.9.1 <4.0.0', hasData: false }
+52 silly mapToRegistry name gulp
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry data Result {
+55 silly mapToRegistry   raw: 'gulp',
+55 silly mapToRegistry   scope: null,
+55 silly mapToRegistry   name: 'gulp',
+55 silly mapToRegistry   rawSpec: '',
+55 silly mapToRegistry   spec: 'latest',
+55 silly mapToRegistry   type: 'tag' }
+56 silly mapToRegistry uri https://registry.npmjs.org/gulp
+57 verbose addNameRange registry:https://registry.npmjs.org/gulp not in flight; fetching
+58 silly cache add args [ 'gulp-bower@0.0.13', null ]
+59 verbose cache add spec gulp-bower@0.0.13
+60 silly cache add parsed spec Result {
+60 silly cache add   raw: 'gulp-bower@0.0.13',
+60 silly cache add   scope: null,
+60 silly cache add   name: 'gulp-bower',
+60 silly cache add   rawSpec: '0.0.13',
+60 silly cache add   spec: '0.0.13',
+60 silly cache add   type: 'version' }
+61 silly addNamed gulp-bower@0.0.13
+62 verbose addNamed "0.0.13" is a plain semver version for gulp-bower
+63 silly mapToRegistry name gulp-bower
+64 silly mapToRegistry using default registry
+65 silly mapToRegistry registry https://registry.npmjs.org/
+66 silly mapToRegistry data Result {
+66 silly mapToRegistry   raw: 'gulp-bower',
+66 silly mapToRegistry   scope: null,
+66 silly mapToRegistry   name: 'gulp-bower',
+66 silly mapToRegistry   rawSpec: '',
+66 silly mapToRegistry   spec: 'latest',
+66 silly mapToRegistry   type: 'tag' }
+67 silly mapToRegistry uri https://registry.npmjs.org/gulp-bower
+68 verbose addNameVersion registry:https://registry.npmjs.org/gulp-bower not in flight; fetching
+69 silly cache add args [ 'gulp-clean@^0.3.2', null ]
+70 verbose cache add spec gulp-clean@^0.3.2
+71 silly cache add parsed spec Result {
+71 silly cache add   raw: 'gulp-clean@^0.3.2',
+71 silly cache add   scope: null,
+71 silly cache add   name: 'gulp-clean',
+71 silly cache add   rawSpec: '^0.3.2',
+71 silly cache add   spec: '>=0.3.2 <0.4.0',
+71 silly cache add   type: 'range' }
+72 silly addNamed gulp-clean@>=0.3.2 <0.4.0
+73 verbose addNamed ">=0.3.2 <0.4.0" is a valid semver range for gulp-clean
+74 silly addNameRange { name: 'gulp-clean', range: '>=0.3.2 <0.4.0', hasData: false }
+75 silly mapToRegistry name gulp-clean
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry data Result {
+78 silly mapToRegistry   raw: 'gulp-clean',
+78 silly mapToRegistry   scope: null,
+78 silly mapToRegistry   name: 'gulp-clean',
+78 silly mapToRegistry   rawSpec: '',
+78 silly mapToRegistry   spec: 'latest',
+78 silly mapToRegistry   type: 'tag' }
+79 silly mapToRegistry uri https://registry.npmjs.org/gulp-clean
+80 verbose addNameRange registry:https://registry.npmjs.org/gulp-clean not in flight; fetching
+81 silly cache add args [ 'gulp-postcss@^6.2.0', null ]
+82 verbose cache add spec gulp-postcss@^6.2.0
+83 silly cache add parsed spec Result {
+83 silly cache add   raw: 'gulp-postcss@^6.2.0',
+83 silly cache add   scope: null,
+83 silly cache add   name: 'gulp-postcss',
+83 silly cache add   rawSpec: '^6.2.0',
+83 silly cache add   spec: '>=6.2.0 <7.0.0',
+83 silly cache add   type: 'range' }
+84 silly addNamed gulp-postcss@>=6.2.0 <7.0.0
+85 verbose addNamed ">=6.2.0 <7.0.0" is a valid semver range for gulp-postcss
+86 silly addNameRange { name: 'gulp-postcss', range: '>=6.2.0 <7.0.0', hasData: false }
+87 silly mapToRegistry name gulp-postcss
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry data Result {
+90 silly mapToRegistry   raw: 'gulp-postcss',
+90 silly mapToRegistry   scope: null,
+90 silly mapToRegistry   name: 'gulp-postcss',
+90 silly mapToRegistry   rawSpec: '',
+90 silly mapToRegistry   spec: 'latest',
+90 silly mapToRegistry   type: 'tag' }
+91 silly mapToRegistry uri https://registry.npmjs.org/gulp-postcss
+92 verbose addNameRange registry:https://registry.npmjs.org/gulp-postcss not in flight; fetching
+93 silly cache add args [ 'gulp-sass@^2.3.2', null ]
+94 verbose cache add spec gulp-sass@^2.3.2
+95 silly cache add parsed spec Result {
+95 silly cache add   raw: 'gulp-sass@^2.3.2',
+95 silly cache add   scope: null,
+95 silly cache add   name: 'gulp-sass',
+95 silly cache add   rawSpec: '^2.3.2',
+95 silly cache add   spec: '>=2.3.2 <3.0.0',
+95 silly cache add   type: 'range' }
+96 silly addNamed gulp-sass@>=2.3.2 <3.0.0
+97 verbose addNamed ">=2.3.2 <3.0.0" is a valid semver range for gulp-sass
+98 silly addNameRange { name: 'gulp-sass', range: '>=2.3.2 <3.0.0', hasData: false }
+99 silly mapToRegistry name gulp-sass
+100 silly mapToRegistry using default registry
+101 silly mapToRegistry registry https://registry.npmjs.org/
+102 silly mapToRegistry data Result {
+102 silly mapToRegistry   raw: 'gulp-sass',
+102 silly mapToRegistry   scope: null,
+102 silly mapToRegistry   name: 'gulp-sass',
+102 silly mapToRegistry   rawSpec: '',
+102 silly mapToRegistry   spec: 'latest',
+102 silly mapToRegistry   type: 'tag' }
+103 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
+104 verbose addNameRange registry:https://registry.npmjs.org/gulp-sass not in flight; fetching
+105 silly cache add args [ 'gulp-sourcemaps@^1.6.0', null ]
+106 verbose cache add spec gulp-sourcemaps@^1.6.0
+107 silly cache add parsed spec Result {
+107 silly cache add   raw: 'gulp-sourcemaps@^1.6.0',
+107 silly cache add   scope: null,
+107 silly cache add   name: 'gulp-sourcemaps',
+107 silly cache add   rawSpec: '^1.6.0',
+107 silly cache add   spec: '>=1.6.0 <2.0.0',
+107 silly cache add   type: 'range' }
+108 silly addNamed gulp-sourcemaps@>=1.6.0 <2.0.0
+109 verbose addNamed ">=1.6.0 <2.0.0" is a valid semver range for gulp-sourcemaps
+110 silly addNameRange { name: 'gulp-sourcemaps',
+110 silly addNameRange   range: '>=1.6.0 <2.0.0',
+110 silly addNameRange   hasData: false }
+111 silly mapToRegistry name gulp-sourcemaps
+112 silly mapToRegistry using default registry
+113 silly mapToRegistry registry https://registry.npmjs.org/
+114 silly mapToRegistry data Result {
+114 silly mapToRegistry   raw: 'gulp-sourcemaps',
+114 silly mapToRegistry   scope: null,
+114 silly mapToRegistry   name: 'gulp-sourcemaps',
+114 silly mapToRegistry   rawSpec: '',
+114 silly mapToRegistry   spec: 'latest',
+114 silly mapToRegistry   type: 'tag' }
+115 silly mapToRegistry uri https://registry.npmjs.org/gulp-sourcemaps
+116 verbose addNameRange registry:https://registry.npmjs.org/gulp-sourcemaps not in flight; fetching
+117 silly cache add args [ 'run-sequence@^1.2.2', null ]
+118 verbose cache add spec run-sequence@^1.2.2
+119 silly cache add parsed spec Result {
+119 silly cache add   raw: 'run-sequence@^1.2.2',
+119 silly cache add   scope: null,
+119 silly cache add   name: 'run-sequence',
+119 silly cache add   rawSpec: '^1.2.2',
+119 silly cache add   spec: '>=1.2.2 <2.0.0',
+119 silly cache add   type: 'range' }
+120 silly addNamed run-sequence@>=1.2.2 <2.0.0
+121 verbose addNamed ">=1.2.2 <2.0.0" is a valid semver range for run-sequence
+122 silly addNameRange { name: 'run-sequence', range: '>=1.2.2 <2.0.0', hasData: false }
+123 silly mapToRegistry name run-sequence
+124 silly mapToRegistry using default registry
+125 silly mapToRegistry registry https://registry.npmjs.org/
+126 silly mapToRegistry data Result {
+126 silly mapToRegistry   raw: 'run-sequence',
+126 silly mapToRegistry   scope: null,
+126 silly mapToRegistry   name: 'run-sequence',
+126 silly mapToRegistry   rawSpec: '',
+126 silly mapToRegistry   spec: 'latest',
+126 silly mapToRegistry   type: 'tag' }
+127 silly mapToRegistry uri https://registry.npmjs.org/run-sequence
+128 verbose addNameRange registry:https://registry.npmjs.org/run-sequence not in flight; fetching
+129 verbose request uri https://registry.npmjs.org/autoprefixer
+130 verbose request no auth needed
+131 info attempt registry request try #1 at 12:46:33 AM
+132 verbose request id 447a2e28733f1877
+133 verbose etag W/"583d1b55-28c2e"
+134 verbose lastModified Tue, 29 Nov 2016 06:08:21 GMT
+135 http request GET https://registry.npmjs.org/autoprefixer
+136 verbose request uri https://registry.npmjs.org/bower
+137 verbose request no auth needed
+138 info attempt registry request try #1 at 12:46:33 AM
+139 verbose etag W/"58381819-2ab6f"
+140 verbose lastModified Fri, 25 Nov 2016 10:53:13 GMT
+141 http request GET https://registry.npmjs.org/bower
+142 verbose request uri https://registry.npmjs.org/es6-promise
+143 verbose request no auth needed
+144 info attempt registry request try #1 at 12:46:33 AM
+145 verbose etag W/"583b1918-ced0"
+146 verbose lastModified Sun, 27 Nov 2016 17:34:16 GMT
+147 http request GET https://registry.npmjs.org/es6-promise
+148 verbose request uri https://registry.npmjs.org/gulp
+149 verbose request no auth needed
+150 info attempt registry request try #1 at 12:46:33 AM
+151 verbose etag W/"583d6c46-1c8c7"
+152 verbose lastModified Tue, 29 Nov 2016 11:53:42 GMT
+153 http request GET https://registry.npmjs.org/gulp
+154 verbose request uri https://registry.npmjs.org/gulp-bower
+155 verbose request no auth needed
+156 info attempt registry request try #1 at 12:46:33 AM
+157 verbose etag W/"58336c5b-476e"
+158 verbose lastModified Mon, 21 Nov 2016 21:51:23 GMT
+159 http request GET https://registry.npmjs.org/gulp-bower
+160 verbose request uri https://registry.npmjs.org/gulp-clean
+161 verbose request no auth needed
+162 info attempt registry request try #1 at 12:46:33 AM
+163 verbose etag W/"5837ed2a-3f35"
+164 verbose lastModified Fri, 25 Nov 2016 07:50:02 GMT
+165 http request GET https://registry.npmjs.org/gulp-clean
+166 verbose request uri https://registry.npmjs.org/gulp-postcss
+167 verbose request no auth needed
+168 info attempt registry request try #1 at 12:46:33 AM
+169 verbose etag W/"58253213-a1a2"
+170 verbose lastModified Fri, 11 Nov 2016 02:50:59 GMT
+171 http request GET https://registry.npmjs.org/gulp-postcss
+172 verbose request uri https://registry.npmjs.org/gulp-sass
+173 verbose request no auth needed
+174 info attempt registry request try #1 at 12:46:33 AM
+175 verbose etag W/"583c4af0-d90a"
+176 verbose lastModified Mon, 28 Nov 2016 15:19:12 GMT
+177 http request GET https://registry.npmjs.org/gulp-sass
+178 verbose request uri https://registry.npmjs.org/gulp-sourcemaps
+179 verbose request no auth needed
+180 info attempt registry request try #1 at 12:46:33 AM
+181 verbose etag W/"583ce981-14d2b"
+182 verbose lastModified Tue, 29 Nov 2016 02:35:45 GMT
+183 http request GET https://registry.npmjs.org/gulp-sourcemaps
+184 verbose request uri https://registry.npmjs.org/run-sequence
+185 verbose request no auth needed
+186 info attempt registry request try #1 at 12:46:33 AM
+187 verbose etag W/"583bf50f-78cc"
+188 verbose lastModified Mon, 28 Nov 2016 09:12:47 GMT
+189 http request GET https://registry.npmjs.org/run-sequence
+190 http 304 https://registry.npmjs.org/bower
+191 verbose headers { date: 'Wed, 30 Nov 2016 00:46:37 GMT',
+191 verbose headers   via: '1.1 varnish',
+191 verbose headers   'cache-control': 'max-age=300',
+191 verbose headers   etag: 'W/"58381819-2ab6f"',
+191 verbose headers   age: '185',
+191 verbose headers   connection: 'keep-alive',
+191 verbose headers   'x-served-by': 'cache-dfw1838-DFW',
+191 verbose headers   'x-cache': 'HIT',
+191 verbose headers   'x-cache-hits': '1',
+191 verbose headers   'x-timer': 'S1480466797.895101,VS0,VE0',
+191 verbose headers   vary: 'Accept-Encoding' }
+192 silly get cb [ 304,
+192 silly get   { date: 'Wed, 30 Nov 2016 00:46:37 GMT',
+192 silly get     via: '1.1 varnish',
+192 silly get     'cache-control': 'max-age=300',
+192 silly get     etag: 'W/"58381819-2ab6f"',
+192 silly get     age: '185',
+192 silly get     connection: 'keep-alive',
+192 silly get     'x-served-by': 'cache-dfw1838-DFW',
+192 silly get     'x-cache': 'HIT',
+192 silly get     'x-cache-hits': '1',
+192 silly get     'x-timer': 'S1480466797.895101,VS0,VE0',
+192 silly get     vary: 'Accept-Encoding' } ]
+193 verbose etag https://registry.npmjs.org/bower from cache
+194 verbose get saving bower to /root/.npm/registry.npmjs.org/bower/.cache.json
+195 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+196 http 304 https://registry.npmjs.org/gulp
+197 verbose headers { date: 'Wed, 30 Nov 2016 00:46:37 GMT',
+197 verbose headers   via: '1.1 varnish',
+197 verbose headers   'cache-control': 'max-age=300',
+197 verbose headers   etag: 'W/"583d6c46-1c8c7"',
+197 verbose headers   age: '74',
+197 verbose headers   connection: 'keep-alive',
+197 verbose headers   'x-served-by': 'cache-dfw1838-DFW',
+197 verbose headers   'x-cache': 'HIT',
+197 verbose headers   'x-cache-hits': '2',
+197 verbose headers   'x-timer': 'S1480466797.921463,VS0,VE0',
+197 verbose headers   vary: 'Accept-Encoding' }
+198 silly get cb [ 304,
+198 silly get   { date: 'Wed, 30 Nov 2016 00:46:37 GMT',
+198 silly get     via: '1.1 varnish',
+198 silly get     'cache-control': 'max-age=300',
+198 silly get     etag: 'W/"583d6c46-1c8c7"',
+198 silly get     age: '74',
+198 silly get     connection: 'keep-alive',
+198 silly get     'x-served-by': 'cache-dfw1838-DFW',
+198 silly get     'x-cache': 'HIT',
+198 silly get     'x-cache-hits': '2',
+198 silly get     'x-timer': 'S1480466797.921463,VS0,VE0',
+198 silly get     vary: 'Accept-Encoding' } ]
+199 verbose etag https://registry.npmjs.org/gulp from cache
+200 verbose get saving gulp to /root/.npm/registry.npmjs.org/gulp/.cache.json
+201 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+202 http 304 https://registry.npmjs.org/autoprefixer
+203 verbose headers { date: 'Wed, 30 Nov 2016 00:46:37 GMT',
+203 verbose headers   via: '1.1 varnish',
+203 verbose headers   'cache-control': 'max-age=300',
+203 verbose headers   etag: 'W/"583d1b55-28c2e"',
+203 verbose headers   age: '35',
+203 verbose headers   connection: 'keep-alive',
+203 verbose headers   'x-served-by': 'cache-dfw1844-DFW',
+203 verbose headers   'x-cache': 'HIT',
+203 verbose headers   'x-cache-hits': '1',
+203 verbose headers   'x-timer': 'S1480466797.921551,VS0,VE0',
+203 verbose headers   vary: 'Accept-Encoding' }
+204 silly get cb [ 304,
+204 silly get   { date: 'Wed, 30 Nov 2016 00:46:37 GMT',
+204 silly get     via: '1.1 varnish',
+204 silly get     'cache-control': 'max-age=300',
+204 silly get     etag: 'W/"583d1b55-28c2e"',
+204 silly get     age: '35',
+204 silly get     connection: 'keep-alive',
+204 silly get     'x-served-by': 'cache-dfw1844-DFW',
+204 silly get     'x-cache': 'HIT',
+204 silly get     'x-cache-hits': '1',
+204 silly get     'x-timer': 'S1480466797.921551,VS0,VE0',
+204 silly get     vary: 'Accept-Encoding' } ]
+205 verbose etag https://registry.npmjs.org/autoprefixer from cache
+206 verbose get saving autoprefixer to /root/.npm/registry.npmjs.org/autoprefixer/.cache.json
+207 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+208 http 304 https://registry.npmjs.org/es6-promise
+209 verbose headers { date: 'Wed, 30 Nov 2016 00:46:37 GMT',
+209 verbose headers   via: '1.1 varnish',
+209 verbose headers   'cache-control': 'max-age=300',
+209 verbose headers   etag: 'W/"583b1918-ced0"',
+209 verbose headers   age: '0',
+209 verbose headers   connection: 'keep-alive',
+209 verbose headers   'x-served-by': 'cache-dfw1832-DFW',
+209 verbose headers   'x-cache': 'HIT',
+209 verbose headers   'x-cache-hits': '1',
+209 verbose headers   'x-timer': 'S1480466797.895296,VS0,VE34',
+209 verbose headers   vary: 'Accept-Encoding' }
+210 silly get cb [ 304,
+210 silly get   { date: 'Wed, 30 Nov 2016 00:46:37 GMT',
+210 silly get     via: '1.1 varnish',
+210 silly get     'cache-control': 'max-age=300',
+210 silly get     etag: 'W/"583b1918-ced0"',
+210 silly get     age: '0',
+210 silly get     connection: 'keep-alive',
+210 silly get     'x-served-by': 'cache-dfw1832-DFW',
+210 silly get     'x-cache': 'HIT',
+210 silly get     'x-cache-hits': '1',
+210 silly get     'x-timer': 'S1480466797.895296,VS0,VE34',
+210 silly get     vary: 'Accept-Encoding' } ]
+211 verbose etag https://registry.npmjs.org/es6-promise from cache
+212 verbose get saving es6-promise to /root/.npm/registry.npmjs.org/es6-promise/.cache.json
+213 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+214 http 304 https://registry.npmjs.org/gulp-bower
+215 verbose headers { date: 'Wed, 30 Nov 2016 00:46:37 GMT',
+215 verbose headers   via: '1.1 varnish',
+215 verbose headers   'cache-control': 'max-age=300',
+215 verbose headers   etag: 'W/"58336c5b-476e"',
+215 verbose headers   age: '0',
+215 verbose headers   connection: 'keep-alive',
+215 verbose headers   'x-served-by': 'cache-dfw1841-DFW',
+215 verbose headers   'x-cache': 'HIT',
+215 verbose headers   'x-cache-hits': '1',
+215 verbose headers   'x-timer': 'S1480466797.928696,VS0,VE38',
+215 verbose headers   vary: 'Accept-Encoding' }
+216 silly get cb [ 304,
+216 silly get   { date: 'Wed, 30 Nov 2016 00:46:37 GMT',
+216 silly get     via: '1.1 varnish',
+216 silly get     'cache-control': 'max-age=300',
+216 silly get     etag: 'W/"58336c5b-476e"',
+216 silly get     age: '0',
+216 silly get     connection: 'keep-alive',
+216 silly get     'x-served-by': 'cache-dfw1841-DFW',
+216 silly get     'x-cache': 'HIT',
+216 silly get     'x-cache-hits': '1',
+216 silly get     'x-timer': 'S1480466797.928696,VS0,VE38',
+216 silly get     vary: 'Accept-Encoding' } ]
+217 verbose etag https://registry.npmjs.org/gulp-bower from cache
+218 verbose get saving gulp-bower to /root/.npm/registry.npmjs.org/gulp-bower/.cache.json
+219 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+220 silly addNameRange number 2 { name: 'bower', range: '>=1.7.9 <2.0.0', hasData: true }
+221 silly addNameRange versions [ 'bower',
+221 silly addNameRange   [ '0.1.0',
+221 silly addNameRange     '0.1.2',
+221 silly addNameRange     '0.1.3',
+221 silly addNameRange     '0.2.0',
+221 silly addNameRange     '0.3.0',
+221 silly addNameRange     '0.3.1',
+221 silly addNameRange     '0.3.2',
+221 silly addNameRange     '0.4.0',
+221 silly addNameRange     '0.5.0',
+221 silly addNameRange     '0.5.1',
+221 silly addNameRange     '0.6.0',
+221 silly addNameRange     '0.6.1',
+221 silly addNameRange     '0.6.2',
+221 silly addNameRange     '0.6.3',
+221 silly addNameRange     '0.6.4',
+221 silly addNameRange     '0.6.5',
+221 silly addNameRange     '0.6.6',
+221 silly addNameRange     '0.6.7',
+221 silly addNameRange     '0.6.8',
+221 silly addNameRange     '0.7.0',
+221 silly addNameRange     '0.7.1',
+221 silly addNameRange     '0.8.0',
+221 silly addNameRange     '0.8.1',
+221 silly addNameRange     '0.8.2',
+221 silly addNameRange     '0.8.3',
+221 silly addNameRange     '0.8.4',
+221 silly addNameRange     '0.8.5',
+221 silly addNameRange     '0.8.6',
+221 silly addNameRange     '0.9.0',
+221 silly addNameRange     '0.9.1',
+221 silly addNameRange     '0.9.2',
+221 silly addNameRange     '0.10.0',
+221 silly addNameRange     '1.0.0',
+221 silly addNameRange     '1.0.1',
+221 silly addNameRange     '1.0.2',
+221 silly addNameRange     '1.0.3',
+221 silly addNameRange     '1.1.0',
+221 silly addNameRange     '1.1.1',
+221 silly addNameRange     '1.1.2',
+221 silly addNameRange     '1.2.0',
+221 silly addNameRange     '1.2.1',
+221 silly addNameRange     '1.2.2',
+221 silly addNameRange     '1.2.3',
+221 silly addNameRange     '1.2.4',
+221 silly addNameRange     '1.2.5',
+221 silly addNameRange     '1.2.6',
+221 silly addNameRange     '1.2.7',
+221 silly addNameRange     '1.2.8',
+221 silly addNameRange     '1.3.0',
+221 silly addNameRange     '1.3.1',
+221 silly addNameRange     '1.3.2',
+221 silly addNameRange     '1.3.3',
+221 silly addNameRange     '1.3.4',
+221 silly addNameRange     '1.3.5',
+221 silly addNameRange     '1.3.6',
+221 silly addNameRange     '1.3.7',
+221 silly addNameRange     '1.3.8',
+221 silly addNameRange     '1.3.9',
+221 silly addNameRange     '1.3.10',
+221 silly addNameRange     '1.3.11',
+221 silly addNameRange     '1.3.12',
+221 silly addNameRange     '1.4.0',
+221 silly addNameRange     '1.4.1',
+221 silly addNameRange     '1.5.0',
+221 silly addNameRange     '1.5.1',
+221 silly addNameRange     '1.5.2',
+221 silly addNameRange     '1.5.3',
+221 silly addNameRange     '1.6.2',
+221 silly addNameRange     '1.6.3',
+221 silly addNameRange     '1.6.4',
+221 silly addNameRange     '1.6.5',
+221 silly addNameRange     '1.5.4',
+221 silly addNameRange     '1.4.2',
+221 silly addNameRange     '1.6.6',
+221 silly addNameRange     '1.6.7',
+221 silly addNameRange     '1.6.8',
+221 silly addNameRange     '1.6.9',
+221 silly addNameRange     '1.7.0',
+221 silly addNameRange     '1.7.1',
+221 silly addNameRange     '1.7.2',
+221 silly addNameRange     '1.7.5',
+221 silly addNameRange     '1.7.6',
+221 silly addNameRange     '1.7.7',
+221 silly addNameRange     '1.7.8',
+221 silly addNameRange     '1.7.9',
+221 silly addNameRange     '1.8.0' ] ]
+222 silly addNamed bower@1.8.0
+223 verbose addNamed "1.8.0" is a plain semver version for bower
+224 silly addNameRange number 2 { name: 'gulp', range: '>=3.9.1 <4.0.0', hasData: true }
+225 silly addNameRange versions [ 'gulp',
+225 silly addNameRange   [ '0.0.1',
+225 silly addNameRange     '0.0.2',
+225 silly addNameRange     '0.0.3',
+225 silly addNameRange     '0.0.4',
+225 silly addNameRange     '0.0.5',
+225 silly addNameRange     '0.0.7',
+225 silly addNameRange     '0.0.8',
+225 silly addNameRange     '0.0.9',
+225 silly addNameRange     '0.1.0',
+225 silly addNameRange     '0.2.0',
+225 silly addNameRange     '1.0.0',
+225 silly addNameRange     '1.1.0',
+225 silly addNameRange     '1.2.0',
+225 silly addNameRange     '1.2.1',
+225 silly addNameRange     '2.0.0',
+225 silly addNameRange     '2.0.1',
+225 silly addNameRange     '2.1.0',
+225 silly addNameRange     '2.2.0',
+225 silly addNameRange     '2.3.0',
+225 silly addNameRange     '2.4.0',
+225 silly addNameRange     '2.4.1',
+225 silly addNameRange     '2.6.0',
+225 silly addNameRange     '2.6.1',
+225 silly addNameRange     '2.7.0',
+225 silly addNameRange     '3.0.0',
+225 silly addNameRange     '3.1.1',
+225 silly addNameRange     '3.1.2',
+225 silly addNameRange     '3.1.3',
+225 silly addNameRange     '3.1.4',
+225 silly addNameRange     '3.2.0',
+225 silly addNameRange     '3.2.1',
+225 silly addNameRange     '3.2.2',
+225 silly addNameRange     '3.2.3',
+225 silly addNameRange     '3.2.4',
+225 silly addNameRange     '3.2.5',
+225 silly addNameRange     '3.3.0',
+225 silly addNameRange     '3.3.1',
+225 silly addNameRange     '3.3.2',
+225 silly addNameRange     '3.3.4',
+225 silly addNameRange     '3.4.0',
+225 silly addNameRange     '3.5.0',
+225 silly addNameRange     '3.5.1',
+225 silly addNameRange     '3.5.2',
+225 silly addNameRange     '3.5.5',
+225 silly addNameRange     '3.5.6',
+225 silly addNameRange     '3.6.0',
+225 silly addNameRange     '3.6.1',
+225 silly addNameRange     '3.6.2',
+225 silly addNameRange     '3.7.0',
+225 silly addNameRange     '3.8.0',
+225 silly addNameRange     '3.8.1',
+225 silly addNameRange     '3.8.2',
+225 silly addNameRange     '3.8.3',
+225 silly addNameRange     '3.8.4',
+225 silly addNameRange     '3.8.5',
+225 silly addNameRange     '3.8.6',
+225 silly addNameRange     '3.8.7',
+225 silly addNameRange     '3.8.8',
+225 silly addNameRange     '3.8.9',
+225 silly addNameRange     '3.8.10',
+225 silly addNameRange     '3.8.11',
+225 silly addNameRange     '3.9.0',
+225 silly addNameRange     '3.9.1' ] ]
+226 silly addNamed gulp@3.9.1
+227 verbose addNamed "3.9.1" is a plain semver version for gulp
+228 silly addNameRange number 2 { name: 'autoprefixer', range: '>=6.5.0 <7.0.0', hasData: true }
+229 silly addNameRange versions [ 'autoprefixer',
+229 silly addNameRange   [ '0.1.20130409',
+229 silly addNameRange     '0.2.20130413',
+229 silly addNameRange     '0.3.20130423',
+229 silly addNameRange     '0.3.20130424',
+229 silly addNameRange     '0.3.20130427',
+229 silly addNameRange     '0.3.20130502',
+229 silly addNameRange     '0.4.20130507',
+229 silly addNameRange     '0.4.20130515',
+229 silly addNameRange     '0.4.20130521',
+229 silly addNameRange     '0.4.20130524',
+229 silly addNameRange     '0.4.20130528',
+229 silly addNameRange     '0.4.20130530',
+229 silly addNameRange     '0.4.20130603',
+229 silly addNameRange     '0.5.20130615',
+229 silly addNameRange     '0.5.20130616',
+229 silly addNameRange     '0.5.20130617',
+229 silly addNameRange     '0.5.20130625',
+229 silly addNameRange     '0.5.20130626',
+229 silly addNameRange     '0.5.20130629',
+229 silly addNameRange     '0.6.20130716',
+229 silly addNameRange     '0.6.20130721',
+229 silly addNameRange     '0.6.20130728',
+229 silly addNameRange     '0.6.20130729',
+229 silly addNameRange     '0.6.20130730',
+229 silly addNameRange     '0.6.20130731',
+229 silly addNameRange     '0.7.20130805',
+229 silly addNameRange     '0.7.20130806',
+229 silly addNameRange     '0.7.20130807',
+229 silly addNameRange     '0.7.20130808',
+229 silly addNameRange     '0.7.20130810',
+229 silly addNameRange     '0.7.20130824',
+229 silly addNameRange     '0.8.20130902',
+229 silly addNameRange     '0.8.20130903',
+229 silly addNameRange     '0.8.20130906',
+229 silly addNameRange     '0.8.20130911',
+229 silly addNameRange     '0.8.20130919',
+229 silly addNameRange     '0.8.20130923',
+229 silly addNameRange     '0.8.20131001',
+229 silly addNameRange     '0.8.20131006',
+229 silly addNameRange     '0.8.20131007',
+229 silly addNameRange     '0.8.20131009',
+229 silly addNameRange     '0.8.20131015',
+229 silly addNameRange     '0.8.20131017',
+229 silly addNameRange     '0.8.20131020',
+229 silly addNameRange     '0.8.20131029',
+229 silly addNameRange     '0.8.20131104',
+229 silly addNameRange     '0.8.20131209',
+229 silly addNameRange     '0.8.20131213',
+229 silly addNameRange     '1.0.20131222',
+229 silly addNameRange     '1.0.20140103',
+229 silly addNameRange     '1.0.20140109',
+229 silly addNameRange     '1.0.20140110',
+229 silly addNameRange     '1.0.20140117',
+229 silly addNameRange     '1.0.20140130',
+229 silly addNameRange     '1.0.20140203',
+229 silly addNameRange     '1.0.20140213',
+229 silly addNameRange     '1.1.20140218',
+229 silly addNameRange     '1.1.20140222',
+229 silly addNameRange     '1.1.20140226',
+229 silly addNameRange     '1.1.20140302',
+229 silly addNameRange     '1.1.20140319',
+229 silly addNameRange     '1.1.20140327',
+229 silly addNameRange     '1.1.20140403',
+229 silly addNameRange     '1.1.20140410',
+229 silly addNameRange     '1.1.20140429',
+229 silly addNameRange     '1.1.20140430',
+229 silly addNameRange     '1.1.20140510',
+229 silly addNameRange     '1.1.20140512',
+229 silly addNameRange     '1.1.20140521',
+229 silly addNameRange     '1.1.20140523',
+229 silly addNameRange     '1.1.20140605',
+229 silly addNameRange     '1.2.0',
+229 silly addNameRange     '1.3.0',
+229 silly addNameRange     '1.3.1',
+229 silly addNameRange     '2.0.0',
+229 silly addNameRange     '2.0.1',
+229 silly addNameRange     '2.0.2',
+229 silly addNameRange     '2.1.0',
+229 silly addNameRange     '2.1.1',
+229 silly addNameRange     '2.2.0',
+229 silly addNameRange     '3.0.0',
+229 silly addNameRange     '3.1.0',
+229 silly addNameRange     '4.0.0',
+229 silly addNameRange     '5.0.0',
+229 silly addNameRange     '5.1.0',
+229 silly addNameRange     '5.1.1',
+229 silly addNameRange     '5.2.0',
+229 silly addNameRange     '6.0.0',
+229 silly addNameRange     '6.0.1',
+229 silly addNameRange     '6.0.2',
+229 silly addNameRange     '6.0.3',
+229 silly addNameRange     '6.1.0',
+229 silly addNameRange     '6.1.1',
+229 silly addNameRange     '6.1.2',
+229 silly addNameRange     '6.2.0',
+229 silly addNameRange     '6.2.1',
+229 silly addNameRange     '6.2.2',
+229 silly addNameRange     '6.2.3',
+229 silly addNameRange     '6.3.0',
+229 silly addNameRange     '6.3.1',
+229 silly addNameRange     '6.3.2',
+229 silly addNameRange     '6.3.3',
+229 silly addNameRange     '6.3.4',
+229 silly addNameRange     '6.3.5',
+229 silly addNameRange     '6.3.6',
+229 silly addNameRange     '6.3.7',
+229 silly addNameRange     '6.4.0',
+229 silly addNameRange     '6.4.1',
+229 silly addNameRange     '6.5.0',
+229 silly addNameRange     '6.5.1',
+229 silly addNameRange     '6.5.2',
+229 silly addNameRange     '6.5.3' ] ]
+230 silly addNamed autoprefixer@6.5.3
+231 verbose addNamed "6.5.3" is a plain semver version for autoprefixer
+232 http 304 https://registry.npmjs.org/gulp-sass
+233 verbose headers { date: 'Wed, 30 Nov 2016 00:46:37 GMT',
+233 verbose headers   via: '1.1 varnish',
+233 verbose headers   'cache-control': 'max-age=300',
+233 verbose headers   etag: 'W/"583c4af0-d90a"',
+233 verbose headers   age: '6',
+233 verbose headers   connection: 'keep-alive',
+233 verbose headers   'x-served-by': 'cache-dfw1822-DFW',
+233 verbose headers   'x-cache': 'HIT',
+233 verbose headers   'x-cache-hits': '1',
+233 verbose headers   'x-timer': 'S1480466797.992180,VS0,VE0',
+233 verbose headers   vary: 'Accept-Encoding' }
+234 silly get cb [ 304,
+234 silly get   { date: 'Wed, 30 Nov 2016 00:46:37 GMT',
+234 silly get     via: '1.1 varnish',
+234 silly get     'cache-control': 'max-age=300',
+234 silly get     etag: 'W/"583c4af0-d90a"',
+234 silly get     age: '6',
+234 silly get     connection: 'keep-alive',
+234 silly get     'x-served-by': 'cache-dfw1822-DFW',
+234 silly get     'x-cache': 'HIT',
+234 silly get     'x-cache-hits': '1',
+234 silly get     'x-timer': 'S1480466797.992180,VS0,VE0',
+234 silly get     vary: 'Accept-Encoding' } ]
+235 verbose etag https://registry.npmjs.org/gulp-sass from cache
+236 verbose get saving gulp-sass to /root/.npm/registry.npmjs.org/gulp-sass/.cache.json
+237 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+238 silly addNameRange number 2 { name: 'es6-promise', range: '>=4.0.3 <5.0.0', hasData: true }
+239 silly addNameRange versions [ 'es6-promise',
+239 silly addNameRange   [ '0.1.0',
+239 silly addNameRange     '0.1.1',
+239 silly addNameRange     '0.1.2',
+239 silly addNameRange     '1.0.0',
+239 silly addNameRange     '2.0.0',
+239 silly addNameRange     '2.0.1',
+239 silly addNameRange     '2.1.0',
+239 silly addNameRange     '2.1.1',
+239 silly addNameRange     '2.2.0',
+239 silly addNameRange     '2.3.0',
+239 silly addNameRange     '3.0.0',
+239 silly addNameRange     '3.0.1',
+239 silly addNameRange     '3.0.2',
+239 silly addNameRange     '3.1.2',
+239 silly addNameRange     '3.2.1',
+239 silly addNameRange     '3.3.0',
+239 silly addNameRange     '3.3.1',
+239 silly addNameRange     '4.0.0',
+239 silly addNameRange     '4.0.1',
+239 silly addNameRange     '4.0.2',
+239 silly addNameRange     '4.0.3',
+239 silly addNameRange     '4.0.4',
+239 silly addNameRange     '4.0.5' ] ]
+240 silly addNamed es6-promise@4.0.5
+241 verbose addNamed "4.0.5" is a plain semver version for es6-promise
+242 http 304 https://registry.npmjs.org/gulp-sourcemaps
+243 verbose headers { date: 'Wed, 30 Nov 2016 00:46:38 GMT',
+243 verbose headers   via: '1.1 varnish',
+243 verbose headers   'cache-control': 'max-age=300',
+243 verbose headers   etag: 'W/"583ce981-14d2b"',
+243 verbose headers   age: '88',
+243 verbose headers   connection: 'keep-alive',
+243 verbose headers   'x-served-by': 'cache-dfw1836-DFW',
+243 verbose headers   'x-cache': 'HIT',
+243 verbose headers   'x-cache-hits': '1',
+243 verbose headers   'x-timer': 'S1480466798.000417,VS0,VE0',
+243 verbose headers   vary: 'Accept-Encoding' }
+244 silly get cb [ 304,
+244 silly get   { date: 'Wed, 30 Nov 2016 00:46:38 GMT',
+244 silly get     via: '1.1 varnish',
+244 silly get     'cache-control': 'max-age=300',
+244 silly get     etag: 'W/"583ce981-14d2b"',
+244 silly get     age: '88',
+244 silly get     connection: 'keep-alive',
+244 silly get     'x-served-by': 'cache-dfw1836-DFW',
+244 silly get     'x-cache': 'HIT',
+244 silly get     'x-cache-hits': '1',
+244 silly get     'x-timer': 'S1480466798.000417,VS0,VE0',
+244 silly get     vary: 'Accept-Encoding' } ]
+245 verbose etag https://registry.npmjs.org/gulp-sourcemaps from cache
+246 verbose get saving gulp-sourcemaps to /root/.npm/registry.npmjs.org/gulp-sourcemaps/.cache.json
+247 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+248 http 304 https://registry.npmjs.org/gulp-clean
+249 verbose headers { date: 'Wed, 30 Nov 2016 00:46:37 GMT',
+249 verbose headers   via: '1.1 varnish',
+249 verbose headers   'cache-control': 'max-age=300',
+249 verbose headers   etag: 'W/"5837ed2a-3f35"',
+249 verbose headers   age: '0',
+249 verbose headers   connection: 'keep-alive',
+249 verbose headers   'x-served-by': 'cache-dfw1821-DFW',
+249 verbose headers   'x-cache': 'HIT',
+249 verbose headers   'x-cache-hits': '1',
+249 verbose headers   'x-timer': 'S1480466797.991734,VS0,VE34',
+249 verbose headers   vary: 'Accept-Encoding' }
+250 silly get cb [ 304,
+250 silly get   { date: 'Wed, 30 Nov 2016 00:46:37 GMT',
+250 silly get     via: '1.1 varnish',
+250 silly get     'cache-control': 'max-age=300',
+250 silly get     etag: 'W/"5837ed2a-3f35"',
+250 silly get     age: '0',
+250 silly get     connection: 'keep-alive',
+250 silly get     'x-served-by': 'cache-dfw1821-DFW',
+250 silly get     'x-cache': 'HIT',
+250 silly get     'x-cache-hits': '1',
+250 silly get     'x-timer': 'S1480466797.991734,VS0,VE34',
+250 silly get     vary: 'Accept-Encoding' } ]
+251 verbose etag https://registry.npmjs.org/gulp-clean from cache
+252 verbose get saving gulp-clean to /root/.npm/registry.npmjs.org/gulp-clean/.cache.json
+253 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+254 silly cache afterAdd autoprefixer@6.5.3
+255 verbose afterAdd /root/.npm/autoprefixer/6.5.3/package/package.json not in flight; writing
+256 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+257 http 304 https://registry.npmjs.org/run-sequence
+258 verbose headers { date: 'Wed, 30 Nov 2016 00:46:38 GMT',
+258 verbose headers   via: '1.1 varnish',
+258 verbose headers   'cache-control': 'max-age=300',
+258 verbose headers   etag: 'W/"583bf50f-78cc"',
+258 verbose headers   age: '126',
+258 verbose headers   connection: 'keep-alive',
+258 verbose headers   'x-served-by': 'cache-dfw1830-DFW',
+258 verbose headers   'x-cache': 'HIT',
+258 verbose headers   'x-cache-hits': '1',
+258 verbose headers   'x-timer': 'S1480466798.045587,VS0,VE0',
+258 verbose headers   vary: 'Accept-Encoding' }
+259 silly get cb [ 304,
+259 silly get   { date: 'Wed, 30 Nov 2016 00:46:38 GMT',
+259 silly get     via: '1.1 varnish',
+259 silly get     'cache-control': 'max-age=300',
+259 silly get     etag: 'W/"583bf50f-78cc"',
+259 silly get     age: '126',
+259 silly get     connection: 'keep-alive',
+259 silly get     'x-served-by': 'cache-dfw1830-DFW',
+259 silly get     'x-cache': 'HIT',
+259 silly get     'x-cache-hits': '1',
+259 silly get     'x-timer': 'S1480466798.045587,VS0,VE0',
+259 silly get     vary: 'Accept-Encoding' } ]
+260 verbose etag https://registry.npmjs.org/run-sequence from cache
+261 verbose get saving run-sequence to /root/.npm/registry.npmjs.org/run-sequence/.cache.json
+262 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+263 silly cache afterAdd bower@1.8.0
+264 verbose afterAdd /root/.npm/bower/1.8.0/package/package.json not in flight; writing
+265 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+266 silly cache afterAdd gulp@3.9.1
+267 verbose afterAdd /root/.npm/gulp/3.9.1/package/package.json not in flight; writing
+268 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+269 silly cache afterAdd es6-promise@4.0.5
+270 verbose afterAdd /root/.npm/es6-promise/4.0.5/package/package.json not in flight; writing
+271 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+272 silly addNameRange number 2 { name: 'gulp-sass', range: '>=2.3.2 <3.0.0', hasData: true }
+273 silly addNameRange versions [ 'gulp-sass',
+273 silly addNameRange   [ '0.1.0',
+273 silly addNameRange     '0.2.1',
+273 silly addNameRange     '0.2.2',
+273 silly addNameRange     '0.2.3',
+273 silly addNameRange     '0.3.0',
+273 silly addNameRange     '0.4.0',
+273 silly addNameRange     '0.4.1',
+273 silly addNameRange     '0.5.0',
+273 silly addNameRange     '0.5.1',
+273 silly addNameRange     '0.5.2',
+273 silly addNameRange     '0.6.0',
+273 silly addNameRange     '0.7.0',
+273 silly addNameRange     '0.7.1',
+273 silly addNameRange     '0.7.2',
+273 silly addNameRange     '0.7.3',
+273 silly addNameRange     '1.0.0',
+273 silly addNameRange     '1.1.0',
+273 silly addNameRange     '1.2.0',
+273 silly addNameRange     '1.2.1',
+273 silly addNameRange     '1.2.2',
+273 silly addNameRange     '1.2.3',
+273 silly addNameRange     '1.2.4',
+273 silly addNameRange     '1.3.0',
+273 silly addNameRange     '1.3.1',
+273 silly addNameRange     '1.3.2',
+273 silly addNameRange     '1.3.3',
+273 silly addNameRange     '2.0.0-alpha.1',
+273 silly addNameRange     '2.0.0',
+273 silly addNameRange     '2.0.2',
+273 silly addNameRange     '2.0.3',
+273 silly addNameRange     '2.0.4',
+273 silly addNameRange     '2.1.0-beta',
+273 silly addNameRange     '2.1.0',
+273 silly addNameRange     '2.1.1',
+273 silly addNameRange     '2.2.0',
+273 silly addNameRange     '2.3.0-beta.1',
+273 silly addNameRange     '2.3.0',
+273 silly addNameRange     '2.3.1',
+273 silly addNameRange     '2.3.2' ] ]
+274 silly addNamed gulp-sass@2.3.2
+275 verbose addNamed "2.3.2" is a plain semver version for gulp-sass
+276 http 304 https://registry.npmjs.org/gulp-postcss
+277 verbose headers { date: 'Wed, 30 Nov 2016 00:46:38 GMT',
+277 verbose headers   via: '1.1 varnish',
+277 verbose headers   'cache-control': 'max-age=300',
+277 verbose headers   etag: 'W/"58253213-a1a2"',
+277 verbose headers   age: '0',
+277 verbose headers   connection: 'keep-alive',
+277 verbose headers   'x-served-by': 'cache-dfw1838-DFW',
+277 verbose headers   'x-cache': 'HIT',
+277 verbose headers   'x-cache-hits': '1',
+277 verbose headers   'x-timer': 'S1480466798.049524,VS0,VE34',
+277 verbose headers   vary: 'Accept-Encoding' }
+278 silly get cb [ 304,
+278 silly get   { date: 'Wed, 30 Nov 2016 00:46:38 GMT',
+278 silly get     via: '1.1 varnish',
+278 silly get     'cache-control': 'max-age=300',
+278 silly get     etag: 'W/"58253213-a1a2"',
+278 silly get     age: '0',
+278 silly get     connection: 'keep-alive',
+278 silly get     'x-served-by': 'cache-dfw1838-DFW',
+278 silly get     'x-cache': 'HIT',
+278 silly get     'x-cache-hits': '1',
+278 silly get     'x-timer': 'S1480466798.049524,VS0,VE34',
+278 silly get     vary: 'Accept-Encoding' } ]
+279 verbose etag https://registry.npmjs.org/gulp-postcss from cache
+280 verbose get saving gulp-postcss to /root/.npm/registry.npmjs.org/gulp-postcss/.cache.json
+281 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+282 silly addNameRange number 2 { name: 'gulp-clean', range: '>=0.3.2 <0.4.0', hasData: true }
+283 silly addNameRange versions [ 'gulp-clean',
+283 silly addNameRange   [ '0.1.1',
+283 silly addNameRange     '0.1.2',
+283 silly addNameRange     '0.1.3',
+283 silly addNameRange     '0.2.0',
+283 silly addNameRange     '0.2.1',
+283 silly addNameRange     '0.2.2',
+283 silly addNameRange     '0.2.3',
+283 silly addNameRange     '0.2.4',
+283 silly addNameRange     '0.3.0',
+283 silly addNameRange     '0.3.1',
+283 silly addNameRange     '0.3.2' ] ]
+284 silly addNamed gulp-clean@0.3.2
+285 verbose addNamed "0.3.2" is a plain semver version for gulp-clean
+286 silly addNameRange number 2 { name: 'gulp-sourcemaps',
+286 silly addNameRange   range: '>=1.6.0 <2.0.0',
+286 silly addNameRange   hasData: true }
+287 silly addNameRange versions [ 'gulp-sourcemaps',
+287 silly addNameRange   [ '0.2.0',
+287 silly addNameRange     '0.2.1',
+287 silly addNameRange     '0.3.0',
+287 silly addNameRange     '0.3.1',
+287 silly addNameRange     '0.4.0',
+287 silly addNameRange     '0.4.1',
+287 silly addNameRange     '0.4.2',
+287 silly addNameRange     '0.4.3',
+287 silly addNameRange     '0.4.4',
+287 silly addNameRange     '0.4.5',
+287 silly addNameRange     '0.4.6',
+287 silly addNameRange     '1.0.0',
+287 silly addNameRange     '1.1.0',
+287 silly addNameRange     '1.1.1',
+287 silly addNameRange     '1.1.2',
+287 silly addNameRange     '1.1.3',
+287 silly addNameRange     '1.1.4',
+287 silly addNameRange     '1.1.5',
+287 silly addNameRange     '1.2.0',
+287 silly addNameRange     '1.2.1',
+287 silly addNameRange     '1.2.2',
+287 silly addNameRange     '1.2.3',
+287 silly addNameRange     '1.2.4',
+287 silly addNameRange     '1.2.5',
+287 silly addNameRange     '1.2.6',
+287 silly addNameRange     '1.2.7',
+287 silly addNameRange     '1.2.8',
+287 silly addNameRange     '1.3.0',
+287 silly addNameRange     '1.4.0',
+287 silly addNameRange     '1.5.0',
+287 silly addNameRange     '1.5.1',
+287 silly addNameRange     '1.5.2',
+287 silly addNameRange     '1.6.0',
+287 silly addNameRange     '2.0.0-alpha',
+287 silly addNameRange     '1.7.1',
+287 silly addNameRange     '2.0.0',
+287 silly addNameRange     '2.0.1',
+287 silly addNameRange     '1.7.3',
+287 silly addNameRange     '1.8.1',
+287 silly addNameRange     '2.1.1',
+287 silly addNameRange     '1.9.0',
+287 silly addNameRange     '2.2.0',
+287 silly addNameRange     '2.2.1',
+287 silly addNameRange     '1.9.1' ] ]
+288 silly addNamed gulp-sourcemaps@1.9.1
+289 verbose addNamed "1.9.1" is a plain semver version for gulp-sourcemaps
+290 silly cache afterAdd gulp-bower@0.0.13
+291 verbose afterAdd /root/.npm/gulp-bower/0.0.13/package/package.json not in flight; writing
+292 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+293 verbose afterAdd /root/.npm/autoprefixer/6.5.3/package/package.json written
+294 verbose afterAdd /root/.npm/gulp/3.9.1/package/package.json written
+295 verbose afterAdd /root/.npm/bower/1.8.0/package/package.json written
+296 verbose afterAdd /root/.npm/es6-promise/4.0.5/package/package.json written
+297 silly cache afterAdd gulp-sass@2.3.2
+298 verbose afterAdd /root/.npm/gulp-sass/2.3.2/package/package.json not in flight; writing
+299 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+300 silly addNameRange number 2 { name: 'run-sequence', range: '>=1.2.2 <2.0.0', hasData: true }
+301 silly addNameRange versions [ 'run-sequence',
+301 silly addNameRange   [ '0.3.1',
+301 silly addNameRange     '0.3.2',
+301 silly addNameRange     '0.3.3',
+301 silly addNameRange     '0.3.4',
+301 silly addNameRange     '0.3.5',
+301 silly addNameRange     '0.3.6',
+301 silly addNameRange     '0.3.7',
+301 silly addNameRange     '1.0.0',
+301 silly addNameRange     '1.0.1',
+301 silly addNameRange     '1.0.2',
+301 silly addNameRange     '1.1.0',
+301 silly addNameRange     '1.1.1',
+301 silly addNameRange     '1.1.2',
+301 silly addNameRange     '1.1.3',
+301 silly addNameRange     '1.1.4',
+301 silly addNameRange     '1.1.5',
+301 silly addNameRange     '1.2.0',
+301 silly addNameRange     '1.2.1',
+301 silly addNameRange     '1.2.2' ] ]
+302 silly addNamed run-sequence@1.2.2
+303 verbose addNamed "1.2.2" is a plain semver version for run-sequence
+304 verbose afterAdd /root/.npm/gulp-bower/0.0.13/package/package.json written
+305 silly cache afterAdd gulp-clean@0.3.2
+306 verbose afterAdd /root/.npm/gulp-clean/0.3.2/package/package.json not in flight; writing
+307 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+308 silly cache afterAdd gulp-sourcemaps@1.9.1
+309 verbose afterAdd /root/.npm/gulp-sourcemaps/1.9.1/package/package.json not in flight; writing
+310 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+311 silly addNameRange number 2 { name: 'gulp-postcss', range: '>=6.2.0 <7.0.0', hasData: true }
+312 silly addNameRange versions [ 'gulp-postcss',
+312 silly addNameRange   [ '0.0.1',
+312 silly addNameRange     '0.0.2',
+312 silly addNameRange     '1.0.0',
+312 silly addNameRange     '1.0.1',
+312 silly addNameRange     '1.0.2',
+312 silly addNameRange     '2.0.0',
+312 silly addNameRange     '2.0.1',
+312 silly addNameRange     '3.0.0',
+312 silly addNameRange     '4.0.0',
+312 silly addNameRange     '4.0.1',
+312 silly addNameRange     '4.0.2',
+312 silly addNameRange     '4.0.3',
+312 silly addNameRange     '5.0.0',
+312 silly addNameRange     '5.0.1',
+312 silly addNameRange     '5.1.0',
+312 silly addNameRange     '5.1.1',
+312 silly addNameRange     '5.1.2',
+312 silly addNameRange     '5.1.3',
+312 silly addNameRange     '5.1.4',
+312 silly addNameRange     '5.1.5',
+312 silly addNameRange     '5.1.6',
+312 silly addNameRange     '5.1.7',
+312 silly addNameRange     '5.1.8',
+312 silly addNameRange     '5.1.9',
+312 silly addNameRange     '5.1.10',
+312 silly addNameRange     '6.0.0',
+312 silly addNameRange     '6.0.1',
+312 silly addNameRange     '6.1.0',
+312 silly addNameRange     '6.1.1',
+312 silly addNameRange     '6.2.0' ] ]
+313 silly addNamed gulp-postcss@6.2.0
+314 verbose addNamed "6.2.0" is a plain semver version for gulp-postcss
+315 verbose afterAdd /root/.npm/gulp-sass/2.3.2/package/package.json written
+316 verbose afterAdd /root/.npm/gulp-clean/0.3.2/package/package.json written
+317 silly cache afterAdd run-sequence@1.2.2
+318 verbose afterAdd /root/.npm/run-sequence/1.2.2/package/package.json not in flight; writing
+319 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+320 verbose afterAdd /root/.npm/gulp-sourcemaps/1.9.1/package/package.json written
+321 silly cache afterAdd gulp-postcss@6.2.0
+322 verbose afterAdd /root/.npm/gulp-postcss/6.2.0/package/package.json not in flight; writing
+323 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+324 verbose afterAdd /root/.npm/gulp-postcss/6.2.0/package/package.json written
+325 verbose afterAdd /root/.npm/run-sequence/1.2.2/package/package.json written
+326 silly install resolved [ { name: 'autoprefixer',
+326 silly install resolved     version: '6.5.3',
+326 silly install resolved     description: 'Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website',
+326 silly install resolved     keywords: [ 'autoprefixer', 'css', 'prefix', 'postcss', 'postcss-plugin' ],
+326 silly install resolved     author: { name: 'Andrey Sitnik', email: 'andrey@sitnik.ru' },
+326 silly install resolved     license: 'MIT',
+326 silly install resolved     repository:
+326 silly install resolved      { type: 'git',
+326 silly install resolved        url: 'git+https://github.com/postcss/autoprefixer.git' },
+326 silly install resolved     dependencies:
+326 silly install resolved      { 'postcss-value-parser': '^3.2.3',
+326 silly install resolved        'normalize-range': '^0.1.2',
+326 silly install resolved        num2fraction: '^1.2.2',
+326 silly install resolved        browserslist: '~1.4.0',
+326 silly install resolved        'caniuse-db': '^1.0.30000578',
+326 silly install resolved        postcss: '^5.2.5' },
+326 silly install resolved     devDependencies:
+326 silly install resolved      { 'eslint-config-postcss': '2.0.2',
+326 silly install resolved        'vinyl-source-stream': '1.1.0',
+326 silly install resolved        'gulp-json-editor': '2.2.1',
+326 silly install resolved        'gulp-replace': '0.5.4',
+326 silly install resolved        'gulp-eslint': '3.0.1',
+326 silly install resolved        'gulp-coffee': '2.3.2',
+326 silly install resolved        'gulp-mocha': '3.0.1',
+326 silly install resolved        browserify: '13.1.1',
+326 silly install resolved        'fs-extra': '1.0.0',
+326 silly install resolved        should: '11.1.1',
+326 silly install resolved        mocha: '3.1.2',
+326 silly install resolved        gulp: '3.9.1',
+326 silly install resolved        'coffee-script': '1.11.1' },
+326 silly install resolved     scripts: { test: 'gulp' },
+326 silly install resolved     eslintConfig: { extends: 'eslint-config-postcss/es5' },
+326 silly install resolved     main: 'lib/autoprefixer',
+326 silly install resolved     bugs: { url: 'https://github.com/postcss/autoprefixer/issues' },
+326 silly install resolved     homepage: 'https://github.com/postcss/autoprefixer#readme',
+326 silly install resolved     _id: 'autoprefixer@6.5.3',
+326 silly install resolved     _shasum: '2d853af66d04449fcf50db3066279ab54c3e4b01',
+326 silly install resolved     _from: 'autoprefixer@>=6.5.0 <7.0.0',
+326 silly install resolved     _npmVersion: '3.10.8',
+326 silly install resolved     _nodeVersion: '7.0.0',
+326 silly install resolved     _npmUser: { name: 'ai', email: 'andrey@sitnik.ru' },
+326 silly install resolved     dist:
+326 silly install resolved      { shasum: '2d853af66d04449fcf50db3066279ab54c3e4b01',
+326 silly install resolved        tarball: 'https://registry.npmjs.org/autoprefixer/-/autoprefixer-6.5.3.tgz' },
+326 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+326 silly install resolved     _npmOperationalInternal:
+326 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+326 silly install resolved        tmp: 'tmp/autoprefixer-6.5.3.tgz_1478781424072_0.49595134309493005' },
+326 silly install resolved     directories: {},
+326 silly install resolved     _resolved: 'https://registry.npmjs.org/autoprefixer/-/autoprefixer-6.5.3.tgz',
+326 silly install resolved     readme: 'ERROR: No README data found!' },
+326 silly install resolved   { name: 'gulp',
+326 silly install resolved     description: 'The streaming build system',
+326 silly install resolved     version: '3.9.1',
+326 silly install resolved     homepage: 'http://gulpjs.com',
+326 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/gulpjs/gulp.git' },
+326 silly install resolved     author:
+326 silly install resolved      { name: 'Fractal',
+326 silly install resolved        email: 'contact@wearefractal.com',
+326 silly install resolved        url: 'http://wearefractal.com/' },
+326 silly install resolved     tags: [ 'build', 'stream', 'system', 'make', 'tool', 'asset', 'pipeline' ],
+326 silly install resolved     files: [ 'index.js', 'lib', 'bin', 'completion', 'gulp.1' ],
+326 silly install resolved     bin: { gulp: './bin/gulp.js' },
+326 silly install resolved     man: [ 'gulp.1' ],
+326 silly install resolved     dependencies:
+326 silly install resolved      { archy: '^1.0.0',
+326 silly install resolved        chalk: '^1.0.0',
+326 silly install resolved        deprecated: '^0.0.1',
+326 silly install resolved        'gulp-util': '^3.0.0',
+326 silly install resolved        interpret: '^1.0.0',
+326 silly install resolved        liftoff: '^2.1.0',
+326 silly install resolved        minimist: '^1.1.0',
+326 silly install resolved        orchestrator: '^0.3.0',
+326 silly install resolved        'pretty-hrtime': '^1.0.0',
+326 silly install resolved        semver: '^4.1.0',
+326 silly install resolved        tildify: '^1.0.0',
+326 silly install resolved        v8flags: '^2.0.2',
+326 silly install resolved        'vinyl-fs': '^0.3.0' },
+326 silly install resolved     devDependencies:
+326 silly install resolved      { coveralls: '^2.7.0',
+326 silly install resolved        eslint: '^1.7.3',
+326 silly install resolved        'eslint-config-gulp': '^2.0.0',
+326 silly install resolved        'graceful-fs': '^3.0.0',
+326 silly install resolved        istanbul: '^0.3.0',
+326 silly install resolved        jscs: '^2.3.5',
+326 silly install resolved        'jscs-preset-gulp': '^1.0.0',
+326 silly install resolved        'marked-man': '^0.1.3',
+326 silly install resolved        mkdirp: '^0.5.0',
+326 silly install resolved        mocha: '^2.0.1',
+326 silly install resolved        'mocha-lcov-reporter': '^0.0.1',
+326 silly install resolved        q: '^1.0.0',
+326 silly install resolved        rimraf: '^2.2.5',
+326 silly install resolved        should: '^5.0.1' },
+326 silly install resolved     scripts:
+326 silly install resolved      { prepublish: 'marked-man --name gulp docs/CLI.md > gulp.1',
+326 silly install resolved        lint: 'eslint . && jscs *.js bin/ lib/ test/',
+326 silly install resolved        pretest: 'npm run lint',
+326 silly install resolved        test: 'mocha --reporter spec',
+326 silly install resolved        coveralls: 'istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage' },
+326 silly install resolved     engines: { node: '>= 0.9' },
+326 silly install resolved     license: 'MIT',
+326 silly install resolved     gitHead: '9c14e3a13a73a32e424f144d62566671b2fcdbed',
+326 silly install resolved     bugs: { url: 'https://github.com/gulpjs/gulp/issues' },
+326 silly install resolved     _id: 'gulp@3.9.1',
+326 silly install resolved     _shasum: '571ce45928dd40af6514fc4011866016c13845b4',
+326 silly install resolved     _from: 'gulp@>=3.9.1 <4.0.0',
+326 silly install resolved     _npmVersion: '2.14.14',
+326 silly install resolved     _nodeVersion: '0.10.41',
+326 silly install resolved     _npmUser: { name: 'phated', email: 'blaine@iceddev.com' },
+326 silly install resolved     maintainers: [ [Object], [Object] ],
+326 silly install resolved     dist:
+326 silly install resolved      { shasum: '571ce45928dd40af6514fc4011866016c13845b4',
+326 silly install resolved        tarball: 'https://registry.npmjs.org/gulp/-/gulp-3.9.1.tgz' },
+326 silly install resolved     _npmOperationalInternal:
+326 silly install resolved      { host: 'packages-6-west.internal.npmjs.com',
+326 silly install resolved        tmp: 'tmp/gulp-3.9.1.tgz_1454957415500_0.15343931876122952' },
+326 silly install resolved     directories: {},
+326 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp/-/gulp-3.9.1.tgz',
+326 silly install resolved     readme: 'ERROR: No README data found!' },
+326 silly install resolved   { name: 'bower',
+326 silly install resolved     version: '1.8.0',
+326 silly install resolved     description: 'The browser package manager',
+326 silly install resolved     author: { name: 'Twitter' },
+326 silly install resolved     license: 'MIT',
+326 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/bower/bower.git' },
+326 silly install resolved     main: 'lib',
+326 silly install resolved     bin: { bower: 'bin/bower' },
+326 silly install resolved     homepage: 'http://bower.io',
+326 silly install resolved     engines: { node: '>=0.10.0' },
+326 silly install resolved     keywords: [ 'bower' ],
+326 silly install resolved     files: [ 'bin', 'lib' ],
+326 silly install resolved     bugs: { url: 'https://github.com/bower/bower/issues' },
+326 silly install resolved     _id: 'bower@1.8.0',
+326 silly install resolved     scripts: {},
+326 silly install resolved     _shasum: '55dbebef0ad9155382d9e9d3e497c1372345b44a',
+326 silly install resolved     _from: 'bower@>=1.7.9 <2.0.0',
+326 silly install resolved     _npmVersion: '3.10.9',
+326 silly install resolved     _nodeVersion: '4.4.6',
+326 silly install resolved     _npmUser: { name: 'sheerun', email: 'sheerun@sher.pl' },
+326 silly install resolved     dist:
+326 silly install resolved      { shasum: '55dbebef0ad9155382d9e9d3e497c1372345b44a',
+326 silly install resolved        tarball: 'https://registry.npmjs.org/bower/-/bower-1.8.0.tgz' },
+326 silly install resolved     maintainers:
+326 silly install resolved      [ [Object],
+326 silly install resolved        [Object],
+326 silly install resolved        [Object],
+326 silly install resolved        [Object],
+326 silly install resolved        [Object],
+326 silly install resolved        [Object],
+326 silly install resolved        [Object] ],
+326 silly install resolved     _npmOperationalInternal:
+326 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+326 silly install resolved        tmp: 'tmp/bower-1.8.0.tgz_1478512918020_0.7136248126626015' },
+326 silly install resolved     directories: {},
+326 silly install resolved     _resolved: 'https://registry.npmjs.org/bower/-/bower-1.8.0.tgz',
+326 silly install resolved     readme: 'ERROR: No README data found!' },
+326 silly install resolved   { name: 'es6-promise',
+326 silly install resolved     namespace: 'es6-promise',
+326 silly install resolved     version: '4.0.5',
+326 silly install resolved     description: 'A lightweight library that provides tools for organizing asynchronous code',
+326 silly install resolved     main: 'dist/es6-promise.js',
+326 silly install resolved     typings: 'es6-promise.d.ts',
+326 silly install resolved     directories: { lib: 'lib' },
+326 silly install resolved     files: [ 'dist', 'lib', 'es6-promise.d.ts', 'auto.js', '!dist/test' ],
+326 silly install resolved     devDependencies:
+326 silly install resolved      { 'broccoli-babel-transpiler': '^5.6.1',
+326 silly install resolved        'broccoli-concat': '^3.0.2',
+326 silly install resolved        'broccoli-merge-trees': '^1.1.1',
+326 silly install resolved        'broccoli-rollup': '^1.0.2',
+326 silly install resolved        'broccoli-stew': '^1.2.0',
+326 silly install resolved        'broccoli-uglify-js': '^0.2.0',
+326 silly install resolved        'broccoli-watchify': 'v1.0.0',
+326 silly install resolved        'ember-cli': '^2.7.0',
+326 silly install resolved        'ember-cli-dependency-checker': '^1.3.0',
+326 silly install resolved        'ember-publisher': '0.0.7',
+326 silly install resolved        'git-repo-version': '0.4.0',
+326 silly install resolved        json3: '^3.3.2',
+326 silly install resolved        mocha: '^3.1.0',
+326 silly install resolved        'promises-aplus-tests-phantom': '^2.1.0-revise',
+326 silly install resolved        'release-it': '0.0.10' },
+326 silly install resolved     scripts:
+326 silly install resolved      { build: 'ember build --environment production',
+326 silly install resolved        'build:production': 'ember build --env production',
+326 silly install resolved        start: 'ember s',
+326 silly install resolved        test: 'ember test',
+326 silly install resolved        'test:server': 'ember test --server',
+326 silly install resolved        'test:node': 'ember build && mocha ./dist/test/browserify',
+326 silly install resolved        prepublish: 'ember build --environment production',
+326 silly install resolved        lint: 'jshint lib',
+326 silly install resolved        'dry-run-release': 'ember build --environment production && release-it --dry-run --non-interactive' },
+326 silly install resolved     repository:
+326 silly install resolved      { type: 'git',
+326 silly install resolved        url: 'git://github.com/stefanpenner/es6-promise.git' },
+326 silly install resolved     bugs: { url: 'https://github.com/stefanpenner/es6-promise/issues' },
+326 silly install resolved     browser: { vertx: false },
+326 silly install resolved     keywords: [ 'promises', 'futures' ],
+326 silly install resolved     author:
+326 silly install resolved      { name: 'Yehuda Katz, Tom Dale, Stefan Penner and contributors',
+326 silly install resolved        url: 'Conversion to ES6 API by Jake Archibald' },
+326 silly install resolved     license: 'MIT',
+326 silly install resolved     spm: { main: 'dist/es6-promise.js' },
+326 silly install resolved     gitHead: '6da7ebc01723ec2fd7744c5c08fa9f338992b2e1',
+326 silly install resolved     homepage: 'https://github.com/stefanpenner/es6-promise#readme',
+326 silly install resolved     _id: 'es6-promise@4.0.5',
+326 silly install resolved     _shasum: '7882f30adde5b240ccfa7f7d78c548330951ae42',
+326 silly install resolved     _from: 'es6-promise@>=4.0.3 <5.0.0',
+326 silly install resolved     _npmVersion: '3.10.8',
+326 silly install resolved     _nodeVersion: '6.6.0',
+326 silly install resolved     _npmUser: { name: 'stefanpenner', email: 'stefan.penner@gmail.com' },
+326 silly install resolved     dist:
+326 silly install resolved      { shasum: '7882f30adde5b240ccfa7f7d78c548330951ae42',
+326 silly install resolved        tarball: 'https://registry.npmjs.org/es6-promise/-/es6-promise-4.0.5.tgz' },
+326 silly install resolved     maintainers: [ [Object], [Object] ],
+326 silly install resolved     _npmOperationalInternal:
+326 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+326 silly install resolved        tmp: 'tmp/es6-promise-4.0.5.tgz_1475539568489_0.15082282247021794' },
+326 silly install resolved     _resolved: 'https://registry.npmjs.org/es6-promise/-/es6-promise-4.0.5.tgz',
+326 silly install resolved     readme: 'ERROR: No README data found!' },
+326 silly install resolved   { name: 'gulp-bower',
+326 silly install resolved     version: '0.0.13',
+326 silly install resolved     description: 'Install Bower packages.',
+326 silly install resolved     main: 'index.js',
+326 silly install resolved     dependencies:
+326 silly install resolved      { bower: '^1.3.12',
+326 silly install resolved        'gulp-util': '^3.0.1',
+326 silly install resolved        inquirer: '^0.11.2',
+326 silly install resolved        through2: '0.6.2',
+326 silly install resolved        walk: '2.3.3' },
+326 silly install resolved     devDependencies:
+326 silly install resolved      { chai: '^3.4.1',
+326 silly install resolved        'event-stream': '^3.3.2',
+326 silly install resolved        gulp: 'latest',
+326 silly install resolved        'gulp-codecov.io': '^1.0.1',
+326 silly install resolved        'gulp-istanbul': '^0.10.3',
+326 silly install resolved        'gulp-jshint': 'latest',
+326 silly install resolved        'gulp-mocha': '^2.2.0',
+326 silly install resolved        jshint: '^2.9.1',
+326 silly install resolved        mocha: '^2.3.4',
+326 silly install resolved        rimraf: '^2.5.0',
+326 silly install resolved        sinon: '^1.17.2',
+326 silly install resolved        'sinon-chai': '^2.8.0',
+326 silly install resolved        'stream-assert': '^2.0.3' },
+326 silly install resolved     scripts: { test: 'node node_modules/gulp/bin/gulp.js post-coverage && node node_modules/gulp/bin/gulp.js lint' },
+326 silly install resolved     repository: { type: 'git', url: 'git://github.com/zont/gulp-bower.git' },
+326 silly install resolved     keywords: [ 'gulpplugin', 'bower' ],
+326 silly install resolved     author: { name: 'Alexander Zonov', email: 'zont@pochta.ru' },
+326 silly install resolved     license: 'MIT',
+326 silly install resolved     bugs: { url: 'https://github.com/zont/gulp-bower/issues' },
+326 silly install resolved     engines: { node: '>=0.8' },
+326 silly install resolved     gitHead: 'ca2847d92310ee9fa61e2cc8f05097bb36c334c0',
+326 silly install resolved     homepage: 'https://github.com/zont/gulp-bower#readme',
+326 silly install resolved     _id: 'gulp-bower@0.0.13',
+326 silly install resolved     _shasum: '7ca4e3c5a599d08fada2b1c054cce8cde4e74235',
+326 silly install resolved     _from: 'gulp-bower@0.0.13',
+326 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-bower/-/gulp-bower-0.0.13.tgz',
+326 silly install resolved     _npmVersion: '3.3.10',
+326 silly install resolved     _nodeVersion: '5.0.0',
+326 silly install resolved     _npmUser: { name: 'alexander.zonov', email: 'zont@pochta.ru' },
+326 silly install resolved     dist:
+326 silly install resolved      { shasum: '7ca4e3c5a599d08fada2b1c054cce8cde4e74235',
+326 silly install resolved        tarball: 'https://registry.npmjs.org/gulp-bower/-/gulp-bower-0.0.13.tgz' },
+326 silly install resolved     maintainers: [ [Object] ],
+326 silly install resolved     directories: {},
+326 silly install resolved     readme: 'ERROR: No README data found!' },
+326 silly install resolved   { name: 'gulp-sass',
+326 silly install resolved     version: '2.3.2',
+326 silly install resolved     description: 'Gulp plugin for sass',
+326 silly install resolved     main: 'index.js',
+326 silly install resolved     scripts: { test: 'mocha test' },
+326 silly install resolved     repository: { type: 'git', url: 'git://github.com/dlmanning/gulp-sass.git' },
+326 silly install resolved     keywords: [ 'gulpplugin', 'sass', 'gulp' ],
+326 silly install resolved     author: { name: 'David Manning' },
+326 silly install resolved     license: 'MIT',
+326 silly install resolved     bugs: { url: 'https://github.com/dlmanning/gulp-sass/issues' },
+326 silly install resolved     dependencies:
+326 silly install resolved      { 'gulp-util': '^3.0',
+326 silly install resolved        'lodash.clonedeep': '^4.3.2',
+326 silly install resolved        'node-sass': '^3.4.2',
+326 silly install resolved        through2: '^2.0.0',
+326 silly install resolved        'vinyl-sourcemaps-apply': '^0.2.0' },
+326 silly install resolved     devDependencies:
+326 silly install resolved      { 'autoprefixer-core': '^5.2.1',
+326 silly install resolved        eslint: '^2.9.0',
+326 silly install resolved        globule: '^1.0.0',
+326 silly install resolved        gulp: '^3.8.11',
+326 silly install resolved        'gulp-postcss': '^5.1.10',
+326 silly install resolved        'gulp-sourcemaps': '^1.5.2',
+326 silly install resolved        'gulp-tap': '^0.1.3',
+326 silly install resolved        mocha: '^2.2.1',
+326 silly install resolved        rimraf: '^2.4.3',
+326 silly install resolved        should: '^8.3.1' },
+326 silly install resolved     gitHead: '218560fc06f6e94151fb5ec3a4e0e047415c14ed',
+326 silly install resolved     homepage: 'https://github.com/dlmanning/gulp-sass#readme',
+326 silly install resolved     _id: 'gulp-sass@2.3.2',
+326 silly install resolved     _shasum: '82b7ab90fe902cdc34c04f180d92f2c34902dd52',
+326 silly install resolved     _from: 'gulp-sass@>=2.3.2 <3.0.0',
+326 silly install resolved     _npmVersion: '3.8.3',
+326 silly install resolved     _nodeVersion: '5.10.1',
+326 silly install resolved     _npmUser: { name: 'xzyfer', email: 'xzyfer@gmail.com' },
+326 silly install resolved     dist:
+326 silly install resolved      { shasum: '82b7ab90fe902cdc34c04f180d92f2c34902dd52',
+326 silly install resolved        tarball: 'https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.3.2.tgz' },
+326 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+326 silly install resolved     _npmOperationalInternal:
+326 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+326 silly install resolved        tmp: 'tmp/gulp-sass-2.3.2.tgz_1465988342649_0.716503701871261' },
+326 silly install resolved     directories: {},
+326 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.3.2.tgz',
+326 silly install resolved     readme: 'ERROR: No README data found!' },
+326 silly install resolved   { name: 'gulp-clean',
+326 silly install resolved     version: '0.3.2',
+326 silly install resolved     description: 'A gulp plugin for removing files and folders.',
+326 silly install resolved     keywords: [ 'gulpplugin', 'clean', 'remove', 'delete' ],
+326 silly install resolved     homepage: 'https://github.com/peter-vilja/gulp-clean',
+326 silly install resolved     bugs: { url: 'https://github.com/peter-vilja/gulp-clean/issues' },
+326 silly install resolved     author: { name: 'Peter Vilja', url: 'https://github.com/peter-vilja' },
+326 silly install resolved     main: 'index.js',
+326 silly install resolved     repository:
+326 silly install resolved      { type: 'git',
+326 silly install resolved        url: 'git://github.com/peter-vilja/gulp-clean.git' },
+326 silly install resolved     scripts: { test: 'mocha test.js' },
+326 silly install resolved     dependencies: { rimraf: '^2.2.8', 'gulp-util': '^2.2.14', through2: '^0.4.2' },
+326 silly install resolved     devDependencies: { mocha: '^1.19.0', chai: '^1.9.1' },
+326 silly install resolved     engines: { node: '>=0.9' },
+326 silly install resolved     license: 'MIT',
+326 silly install resolved     gitHead: 'b4c1fcf6e3a9b24339af024411f8c2038f07bc13',
+326 silly install resolved     _id: 'gulp-clean@0.3.2',
+326 silly install resolved     _shasum: 'a347d473acea40182f935587a451941671928102',
+326 silly install resolved     _from: 'gulp-clean@>=0.3.2 <0.4.0',
+326 silly install resolved     _npmVersion: '3.6.0',
+326 silly install resolved     _nodeVersion: '5.7.1',
+326 silly install resolved     _npmUser: { name: 'petervilja', email: 'peter.vilja@gmail.com' },
+326 silly install resolved     maintainers: [ [Object] ],
+326 silly install resolved     dist:
+326 silly install resolved      { shasum: 'a347d473acea40182f935587a451941671928102',
+326 silly install resolved        tarball: 'https://registry.npmjs.org/gulp-clean/-/gulp-clean-0.3.2.tgz' },
+326 silly install resolved     _npmOperationalInternal:
+326 silly install resolved      { host: 'packages-13-west.internal.npmjs.com',
+326 silly install resolved        tmp: 'tmp/gulp-clean-0.3.2.tgz_1457034255108_0.3065810326952487' },
+326 silly install resolved     directories: {},
+326 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-clean/-/gulp-clean-0.3.2.tgz',
+326 silly install resolved     readme: 'ERROR: No README data found!' },
+326 silly install resolved   { name: 'gulp-sourcemaps',
+326 silly install resolved     version: '1.9.1',
+326 silly install resolved     description: 'Source map support for Gulp.js',
+326 silly install resolved     homepage: 'http://github.com/floridoo/gulp-sourcemaps',
+326 silly install resolved     repository:
+326 silly install resolved      { type: 'git',
+326 silly install resolved        url: 'git://github.com/floridoo/gulp-sourcemaps.git' },
+326 silly install resolved     main: 'index.js',
+326 silly install resolved     scripts:
+326 silly install resolved      { test: 'jshint *.js test/*.js && faucet test/*.js',
+326 silly install resolved        tap: 'tape test/*.js',
+326 silly install resolved        cover: 'istanbul cover --dir reports/coverage tape "test/*.js"',
+326 silly install resolved        coveralls: 'istanbul cover tape "test/*.js" --report lcovonly && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage' },
+326 silly install resolved     keywords: [ 'gulpplugin', 'gulp', 'source maps', 'sourcemaps' ],
+326 silly install resolved     author: { name: 'Florian Reiterer', email: 'me@florianreiterer.com' },
+326 silly install resolved     license: 'ISC',
+326 silly install resolved     dependencies:
+326 silly install resolved      { acorn: '4.X',
+326 silly install resolved        'convert-source-map': '1.X',
+326 silly install resolved        css: '2.X',
+326 silly install resolved        'debug-fabulous': '0.0.X',
+326 silly install resolved        'detect-newline': '2.X',
+326 silly install resolved        'graceful-fs': '4.X',
+326 silly install resolved        'source-map': '0.X',
+326 silly install resolved        'strip-bom': '2.X',
+326 silly install resolved        through2: '2.X',
+326 silly install resolved        vinyl: '1.X' },
+326 silly install resolved     devDependencies:
+326 silly install resolved      { coveralls: '2.X',
+326 silly install resolved        faucet: '0.0.X',
+326 silly install resolved        gulp: '3.X',
+326 silly install resolved        'hook-std': '0.2.X',
+326 silly install resolved        istanbul: '0.X',
+326 silly install resolved        jshint: '2.X',
+326 silly install resolved        'object-assign': '^4.1.0',
+326 silly install resolved        tape: '4.X' },
+326 silly install resolved     files: [ 'index.js', 'src' ],
+326 silly install resolved     engines: { node: '>=0.10.0' },
+326 silly install resolved     gitHead: 'da0efa86cd017bb92ff032f66a45b0f9875cd140',
+326 silly install resolved     bugs: { url: 'https://github.com/floridoo/gulp-sourcemaps/issues' },
+326 silly install resolved     _id: 'gulp-sourcemaps@1.9.1',
+326 silly install resolved     _shasum: '80ac2d3845d13e68dd962524d8a967a440b0b753',
+326 silly install resolved     _from: 'gulp-sourcemaps@>=1.6.0 <2.0.0',
+326 silly install resolved     _npmVersion: '2.15.1',
+326 silly install resolved     _nodeVersion: '0.12.17',
+326 silly install resolved     _npmUser: { name: 'nmccready', email: 'nemtcan@gmail.com' },
+326 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+326 silly install resolved     dist:
+326 silly install resolved      { shasum: '80ac2d3845d13e68dd962524d8a967a440b0b753',
+326 silly install resolved        tarball: 'https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.9.1.tgz' },
+326 silly install resolved     _npmOperationalInternal:
+326 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+326 silly install resolved        tmp: 'tmp/gulp-sourcemaps-1.9.1.tgz_1479757471860_0.6515003819949925' },
+326 silly install resolved     directories: {},
+326 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.9.1.tgz',
+326 silly install resolved     readme: 'ERROR: No README data found!' },
+326 silly install resolved   { name: 'gulp-postcss',
+326 silly install resolved     version: '6.2.0',
+326 silly install resolved     description: 'PostCSS gulp plugin',
+326 silly install resolved     main: 'index.js',
+326 silly install resolved     scripts: { test: 'mocha test.js' },
+326 silly install resolved     repository:
+326 silly install resolved      { type: 'git',
+326 silly install resolved        url: 'git+https://github.com/postcss/gulp-postcss.git' },
+326 silly install resolved     keywords: [ 'gulpplugin', 'postcss', 'postcss-runner', 'css' ],
+326 silly install resolved     author: { name: 'Andrey Kuzmin', email: 'unsoundscapes@gmail.com' },
+326 silly install resolved     license: 'MIT',
+326 silly install resolved     bugs: { url: 'https://github.com/postcss/gulp-postcss/issues' },
+326 silly install resolved     homepage: 'https://github.com/postcss/gulp-postcss',
+326 silly install resolved     dependencies:
+326 silly install resolved      { 'gulp-util': '^3.0.7',
+326 silly install resolved        postcss: '^5.2.0',
+326 silly install resolved        'vinyl-sourcemaps-apply': '^0.2.0' },
+326 silly install resolved     devDependencies:
+326 silly install resolved      { 'es6-promise': '^3.0.2',
+326 silly install resolved        'gulp-sourcemaps': '^1.5.1',
+326 silly install resolved        mocha: '^2.2.5',
+326 silly install resolved        proxyquire: '^1.7.4',
+326 silly install resolved        sinon: '^1.17.3' },
+326 silly install resolved     gitHead: '2cdf9a8857eb6487422c6f3875b2449b81609996',
+326 silly install resolved     _id: 'gulp-postcss@6.2.0',
+326 silly install resolved     _shasum: 'be0b7c3ab25aaa9a6ddef3fc65edf52d2be99640',
+326 silly install resolved     _from: 'gulp-postcss@>=6.2.0 <7.0.0',
+326 silly install resolved     _npmVersion: '3.6.0',
+326 silly install resolved     _nodeVersion: '5.6.0',
+326 silly install resolved     _npmUser: { name: 'unsoundscapes', email: 'unsoundscapes@gmail.com' },
+326 silly install resolved     maintainers: [ [Object] ],
+326 silly install resolved     dist:
+326 silly install resolved      { shasum: 'be0b7c3ab25aaa9a6ddef3fc65edf52d2be99640',
+326 silly install resolved        tarball: 'https://registry.npmjs.org/gulp-postcss/-/gulp-postcss-6.2.0.tgz' },
+326 silly install resolved     _npmOperationalInternal:
+326 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+326 silly install resolved        tmp: 'tmp/gulp-postcss-6.2.0.tgz_1473359525942_0.15197258512489498' },
+326 silly install resolved     directories: {},
+326 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-postcss/-/gulp-postcss-6.2.0.tgz',
+326 silly install resolved     readme: 'ERROR: No README data found!' },
+326 silly install resolved   { name: 'run-sequence',
+326 silly install resolved     description: 'Run a series of dependent gulp tasks in order',
+326 silly install resolved     version: '1.2.2',
+326 silly install resolved     homepage: 'https://github.com/OverZealous/run-sequence',
+326 silly install resolved     repository:
+326 silly install resolved      { type: 'git',
+326 silly install resolved        url: 'git://github.com/OverZealous/run-sequence.git' },
+326 silly install resolved     bugs: { url: 'https://github.com/OverZealous/run-sequence/issues' },
+326 silly install resolved     author: { name: 'Phil DeJarnett', url: 'http://overzealous.com/' },
+326 silly install resolved     main: './index.js',
+326 silly install resolved     keywords: [ 'gulpfriendly', 'pipe', 'sequence', 'gulp', 'orchestrator' ],
+326 silly install resolved     dependencies: { chalk: '*', 'gulp-util': '*' },
+326 silly install resolved     devDependencies: { gulp: '*', mocha: '*', should: '*' },
+326 silly install resolved     scripts: { test: 'mocha --reporter spec' },
+326 silly install resolved     engines: { node: '>= 0.8.0' },
+326 silly install resolved     license: 'MIT',
+326 silly install resolved     gitHead: '2238f6aea94c201173a99a4ccc1f2791c38531a1',
+326 silly install resolved     _id: 'run-sequence@1.2.2',
+326 silly install resolved     _shasum: '5095a0bebe98733b0140bd08dd80ec030ddacdeb',
+326 silly install resolved     _from: 'run-sequence@>=1.2.2 <2.0.0',
+326 silly install resolved     _npmVersion: '3.8.6',
+326 silly install resolved     _nodeVersion: '5.11.1',
+326 silly install resolved     _npmUser: { name: 'overzealous', email: 'phil@overzealous.com' },
+326 silly install resolved     maintainers: [ [Object] ],
+326 silly install resolved     dist:
+326 silly install resolved      { shasum: '5095a0bebe98733b0140bd08dd80ec030ddacdeb',
+326 silly install resolved        tarball: 'https://registry.npmjs.org/run-sequence/-/run-sequence-1.2.2.tgz' },
+326 silly install resolved     _npmOperationalInternal:
+326 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+326 silly install resolved        tmp: 'tmp/run-sequence-1.2.2.tgz_1467208581638_0.25349971698597074' },
+326 silly install resolved     directories: {},
+326 silly install resolved     _resolved: 'https://registry.npmjs.org/run-sequence/-/run-sequence-1.2.2.tgz',
+326 silly install resolved     readme: 'ERROR: No README data found!' } ]
+327 info install autoprefixer@6.5.3 into /var/www/drupalvm/web/themes/custom/custom_theme
+328 info install gulp@3.9.1 into /var/www/drupalvm/web/themes/custom/custom_theme
+329 info install bower@1.8.0 into /var/www/drupalvm/web/themes/custom/custom_theme
+330 info install es6-promise@4.0.5 into /var/www/drupalvm/web/themes/custom/custom_theme
+331 info install gulp-bower@0.0.13 into /var/www/drupalvm/web/themes/custom/custom_theme
+332 info install gulp-sass@2.3.2 into /var/www/drupalvm/web/themes/custom/custom_theme
+333 info install gulp-clean@0.3.2 into /var/www/drupalvm/web/themes/custom/custom_theme
+334 info install gulp-sourcemaps@1.9.1 into /var/www/drupalvm/web/themes/custom/custom_theme
+335 info install gulp-postcss@6.2.0 into /var/www/drupalvm/web/themes/custom/custom_theme
+336 info install run-sequence@1.2.2 into /var/www/drupalvm/web/themes/custom/custom_theme
+337 info installOne autoprefixer@6.5.3
+338 verbose installOne of autoprefixer to /var/www/drupalvm/web/themes/custom/custom_theme not in flight; installing
+339 verbose correctMkdir /root/.npm/_locks correctMkdir not in flight; initializing
+340 info installOne gulp@3.9.1
+341 verbose installOne of gulp to /var/www/drupalvm/web/themes/custom/custom_theme not in flight; installing
+342 verbose correctMkdir /root/.npm/_locks correctMkdir already in flight; waiting
+343 info installOne bower@1.8.0
+344 verbose installOne of bower to /var/www/drupalvm/web/themes/custom/custom_theme not in flight; installing
+345 verbose correctMkdir /root/.npm/_locks correctMkdir already in flight; waiting
+346 info installOne es6-promise@4.0.5
+347 verbose installOne of es6-promise to /var/www/drupalvm/web/themes/custom/custom_theme not in flight; installing
+348 verbose correctMkdir /root/.npm/_locks correctMkdir already in flight; waiting
+349 info installOne gulp-bower@0.0.13
+350 verbose installOne of gulp-bower to /var/www/drupalvm/web/themes/custom/custom_theme not in flight; installing
+351 verbose correctMkdir /root/.npm/_locks correctMkdir already in flight; waiting
+352 info installOne gulp-sass@2.3.2
+353 verbose installOne of gulp-sass to /var/www/drupalvm/web/themes/custom/custom_theme not in flight; installing
+354 verbose correctMkdir /root/.npm/_locks correctMkdir already in flight; waiting
+355 info installOne gulp-clean@0.3.2
+356 verbose installOne of gulp-clean to /var/www/drupalvm/web/themes/custom/custom_theme not in flight; installing
+357 verbose correctMkdir /root/.npm/_locks correctMkdir already in flight; waiting
+358 info installOne gulp-sourcemaps@1.9.1
+359 verbose installOne of gulp-sourcemaps to /var/www/drupalvm/web/themes/custom/custom_theme not in flight; installing
+360 verbose correctMkdir /root/.npm/_locks correctMkdir already in flight; waiting
+361 info installOne gulp-postcss@6.2.0
+362 verbose installOne of gulp-postcss to /var/www/drupalvm/web/themes/custom/custom_theme not in flight; installing
+363 verbose correctMkdir /root/.npm/_locks correctMkdir already in flight; waiting
+364 info installOne run-sequence@1.2.2
+365 verbose installOne of run-sequence to /var/www/drupalvm/web/themes/custom/custom_theme not in flight; installing
+366 verbose correctMkdir /root/.npm/_locks correctMkdir already in flight; waiting
+367 verbose lock using /root/.npm/_locks/autoprefixer-7b66334733700464.lock for /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/autoprefixer
+368 verbose lock using /root/.npm/_locks/gulp-2331e926eb7a6c01.lock for /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp
+369 verbose lock using /root/.npm/_locks/bower-98f62ebc4a907fcf.lock for /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/bower
+370 verbose lock using /root/.npm/_locks/es6-promise-19e9fa4bfec7664b.lock for /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/es6-promise
+371 verbose lock using /root/.npm/_locks/gulp-bower-7a5283c345a00dc7.lock for /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-bower
+372 verbose lock using /root/.npm/_locks/gulp-sass-32a85e1a160d8cb5.lock for /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sass
+373 verbose lock using /root/.npm/_locks/gulp-clean-211cf85d36c99c98.lock for /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-clean
+374 verbose lock using /root/.npm/_locks/gulp-sourcemaps-3022c8509709baf6.lock for /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sourcemaps
+375 verbose lock using /root/.npm/_locks/gulp-postcss-f1da74251ad965d3.lock for /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-postcss
+376 verbose lock using /root/.npm/_locks/run-sequence-1daf78dde601a370.lock for /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/run-sequence
+377 silly install write writing autoprefixer 6.5.3 to /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/autoprefixer
+378 silly install write writing gulp 3.9.1 to /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp
+379 silly install write writing bower 1.8.0 to /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/bower
+380 silly install write writing es6-promise 4.0.5 to /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/es6-promise
+381 silly install write writing gulp-bower 0.0.13 to /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-bower
+382 silly install write writing gulp-sass 2.3.2 to /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sass
+383 silly install write writing gulp-clean 0.3.2 to /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-clean
+384 silly install write writing gulp-sourcemaps 1.9.1 to /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sourcemaps
+385 silly install write writing gulp-postcss 6.2.0 to /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-postcss
+386 silly install write writing run-sequence 1.2.2 to /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/run-sequence
+387 verbose unbuild node_modules/autoprefixer
+388 verbose unbuild node_modules/es6-promise
+389 verbose unbuild node_modules/gulp-bower
+390 verbose unbuild node_modules/gulp-sass
+391 verbose unbuild node_modules/gulp-clean
+392 verbose unbuild node_modules/gulp-sourcemaps
+393 verbose unbuild node_modules/gulp-postcss
+394 verbose unbuild node_modules/run-sequence
+395 verbose unbuild node_modules/gulp
+396 verbose unbuild node_modules/bower
+397 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/autoprefixer is being purged from base /var/www/drupalvm/web/themes/custom/custom_theme
+398 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/autoprefixer
+399 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/es6-promise is being purged from base /var/www/drupalvm/web/themes/custom/custom_theme
+400 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/es6-promise
+401 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-bower is being purged from base /var/www/drupalvm/web/themes/custom/custom_theme
+402 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-bower
+403 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sass is being purged from base /var/www/drupalvm/web/themes/custom/custom_theme
+404 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sass
+405 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-clean is being purged from base /var/www/drupalvm/web/themes/custom/custom_theme
+406 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-clean
+407 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sourcemaps is being purged from base /var/www/drupalvm/web/themes/custom/custom_theme
+408 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sourcemaps
+409 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-postcss is being purged from base /var/www/drupalvm/web/themes/custom/custom_theme
+410 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-postcss
+411 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/run-sequence is being purged from base /var/www/drupalvm/web/themes/custom/custom_theme
+412 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/run-sequence
+413 verbose tar unpack /root/.npm/autoprefixer/6.5.3/package.tgz
+414 verbose tar unpacking to /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/autoprefixer
+415 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/autoprefixer is being purged
+416 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/autoprefixer
+417 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp is being purged from base /var/www/drupalvm/web/themes/custom/custom_theme
+418 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp
+419 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/bower is being purged from base /var/www/drupalvm/web/themes/custom/custom_theme
+420 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/bower
+421 verbose tar unpack /root/.npm/es6-promise/4.0.5/package.tgz
+422 verbose tar unpacking to /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/es6-promise
+423 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/es6-promise is being purged
+424 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/es6-promise
+425 verbose tar unpack /root/.npm/gulp-bower/0.0.13/package.tgz
+426 verbose tar unpacking to /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-bower
+427 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-bower is being purged
+428 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-bower
+429 verbose tar unpack /root/.npm/gulp-sass/2.3.2/package.tgz
+430 verbose tar unpacking to /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sass
+431 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sass is being purged
+432 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sass
+433 verbose tar unpack /root/.npm/gulp-clean/0.3.2/package.tgz
+434 verbose tar unpacking to /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-clean
+435 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-clean is being purged
+436 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-clean
+437 verbose tar unpack /root/.npm/gulp-sourcemaps/1.9.1/package.tgz
+438 verbose tar unpacking to /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sourcemaps
+439 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sourcemaps is being purged
+440 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sourcemaps
+441 verbose tar unpack /root/.npm/gulp-postcss/6.2.0/package.tgz
+442 verbose tar unpacking to /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-postcss
+443 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-postcss is being purged
+444 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-postcss
+445 verbose tar unpack /root/.npm/run-sequence/1.2.2/package.tgz
+446 verbose tar unpacking to /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/run-sequence
+447 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/run-sequence is being purged
+448 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/run-sequence
+449 silly gunzTarPerm modes [ '755', '644' ]
+450 verbose tar unpack /root/.npm/gulp/3.9.1/package.tgz
+451 verbose tar unpacking to /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp
+452 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp is being purged
+453 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp
+454 verbose tar unpack /root/.npm/bower/1.8.0/package.tgz
+455 verbose tar unpacking to /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/bower
+456 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/bower is being purged
+457 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/bower
+458 silly gunzTarPerm modes [ '755', '644' ]
+459 silly gunzTarPerm modes [ '755', '644' ]
+460 silly gunzTarPerm modes [ '755', '644' ]
+461 silly gunzTarPerm modes [ '755', '644' ]
+462 silly gunzTarPerm modes [ '755', '644' ]
+463 silly gunzTarPerm modes [ '755', '644' ]
+464 silly gunzTarPerm modes [ '755', '644' ]
+465 silly gunzTarPerm modes [ '755', '644' ]
+466 silly gunzTarPerm modes [ '755', '644' ]
+467 silly gunzTarPerm extractEntry package.json
+468 silly gunzTarPerm extractEntry package.json
+469 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+470 silly gunzTarPerm extractEntry package.json
+471 silly gunzTarPerm extractEntry package.json
+472 silly gunzTarPerm extractEntry package.json
+473 silly gunzTarPerm extractEntry package.json
+474 silly gunzTarPerm extractEntry package.json
+475 silly gunzTarPerm extractEntry package.json
+476 silly gunzTarPerm extractEntry package.json
+477 silly gunzTarPerm extractEntry package.json
+478 silly gunzTarPerm extractEntry README.md
+479 silly gunzTarPerm extractEntry LICENSE
+480 silly gunzTarPerm extractEntry README.md
+481 silly gunzTarPerm extractEntry LICENSE
+482 silly gunzTarPerm extractEntry .npmignore
+483 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+484 silly gunzTarPerm extractEntry README.md
+485 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+486 silly gunzTarPerm extractEntry README.md
+487 silly gunzTarPerm extractEntry index.js
+488 silly gunzTarPerm extractEntry .npmignore
+489 silly gunzTarPerm extractEntry README.md
+490 silly gunzTarPerm extractEntry .npmignore
+491 silly gunzTarPerm extractEntry README.md
+492 silly gunzTarPerm extractEntry .npmignore
+493 silly gunzTarPerm extractEntry README.md
+494 silly gunzTarPerm extractEntry README.md
+495 silly gunzTarPerm extractEntry LICENSE
+496 silly gunzTarPerm extractEntry .npmignore
+497 silly gunzTarPerm extractEntry README.md
+498 error tar.unpack untar error /root/.npm/autoprefixer/6.5.3/package.tgz
+499 silly gunzTarPerm extractEntry README.md
+500 silly gunzTarPerm extractEntry LICENSE
+501 error tar.unpack untar error /root/.npm/gulp-bower/0.0.13/package.tgz
+502 error tar.unpack untar error /root/.npm/es6-promise/4.0.5/package.tgz
+503 error tar.unpack untar error /root/.npm/gulp-sourcemaps/1.9.1/package.tgz
+504 verbose unlock done using /root/.npm/_locks/autoprefixer-7b66334733700464.lock for /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/autoprefixer
+505 verbose unlock done using /root/.npm/_locks/gulp-bower-7a5283c345a00dc7.lock for /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-bower
+506 verbose unlock done using /root/.npm/_locks/es6-promise-19e9fa4bfec7664b.lock for /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/es6-promise
+507 verbose unlock done using /root/.npm/_locks/gulp-sourcemaps-3022c8509709baf6.lock for /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sourcemaps
+508 error tar.unpack untar error /root/.npm/run-sequence/1.2.2/package.tgz
+509 error tar.unpack untar error /root/.npm/gulp-sass/2.3.2/package.tgz
+510 error tar.unpack untar error /root/.npm/gulp-clean/0.3.2/package.tgz
+511 error tar.unpack untar error /root/.npm/gulp/3.9.1/package.tgz
+512 verbose unlock done using /root/.npm/_locks/run-sequence-1daf78dde601a370.lock for /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/run-sequence
+513 error tar.unpack untar error /root/.npm/gulp-postcss/6.2.0/package.tgz
+514 verbose unlock done using /root/.npm/_locks/gulp-sass-32a85e1a160d8cb5.lock for /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sass
+515 verbose unlock done using /root/.npm/_locks/gulp-clean-211cf85d36c99c98.lock for /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-clean
+516 verbose unlock done using /root/.npm/_locks/gulp-2331e926eb7a6c01.lock for /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp
+517 error tar.unpack untar error /root/.npm/bower/1.8.0/package.tgz
+518 verbose unlock done using /root/.npm/_locks/gulp-postcss-f1da74251ad965d3.lock for /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-postcss
+519 verbose unlock done using /root/.npm/_locks/bower-98f62ebc4a907fcf.lock for /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/bower
+520 verbose fstream_path /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/autoprefixer/package.json
+521 verbose fstream_type File
+522 verbose fstream_class FileWriter
+523 verbose fstream_finish_call chown
+524 verbose stack Error: EPERM: operation not permitted, chown '/var/www/drupalvm/web/themes/custom/custom_theme/node_modules/autoprefixer/package.json'
+524 verbose stack     at Error (native)
+525 verbose fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/writer.js:306:21
+525 verbose fstream_stack /usr/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:233:18
+525 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+526 verbose cwd /var/www/drupalvm/web/themes/custom/custom_theme
+527 error Linux 4.4.0-31-generic
+528 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install"
+529 error node v4.6.2
+530 error npm  v2.15.11
+531 error path /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/autoprefixer/package.json
+532 error code EPERM
+533 error errno -1
+534 error syscall chown
+535 error Error: EPERM: operation not permitted, chown '/var/www/drupalvm/web/themes/custom/custom_theme/node_modules/autoprefixer/package.json'
+535 error     at Error (native)
+535 error  { [Error: EPERM: operation not permitted, chown '/var/www/drupalvm/web/themes/custom/custom_theme/node_modules/autoprefixer/package.json']
+535 error   errno: -1,
+535 error   code: 'EPERM',
+535 error   syscall: 'chown',
+535 error   path: '/var/www/drupalvm/web/themes/custom/custom_theme/node_modules/autoprefixer/package.json',
+535 error   fstream_finish_call: 'chown',
+535 error   fstream_type: 'File',
+535 error   fstream_path: '/var/www/drupalvm/web/themes/custom/custom_theme/node_modules/autoprefixer/package.json',
+535 error   fstream_class: 'FileWriter',
+535 error   fstream_stack:
+535 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/writer.js:306:21',
+535 error      '/usr/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:233:18',
+535 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+536 error Please try running this command again as root/Administrator.
+537 verbose exit [ -1, true ]
+538 verbose unbuild node_modules/autoprefixer
+539 info preuninstall autoprefixer@6.5.3
+540 info uninstall autoprefixer@6.5.3
+541 verbose unbuild rmStuff autoprefixer@6.5.3 from /var/www/drupalvm/web/themes/custom/custom_theme/node_modules
+542 info postuninstall autoprefixer@6.5.3
+543 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/autoprefixer is being purged from base /var/www/drupalvm/web/themes/custom/custom_theme
+544 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/autoprefixer
+545 silly vacuum-fs purging /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/autoprefixer
+546 silly vacuum-fs quitting because other entries in /var/www/drupalvm/web/themes/custom/custom_theme/node_modules
+547 verbose unbuild node_modules/gulp-bower
+548 info preuninstall gulp-bower@0.0.13
+549 info uninstall gulp-bower@0.0.13
+550 verbose unbuild rmStuff gulp-bower@0.0.13 from /var/www/drupalvm/web/themes/custom/custom_theme/node_modules
+551 info postuninstall gulp-bower@0.0.13
+552 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-bower is being purged from base /var/www/drupalvm/web/themes/custom/custom_theme
+553 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-bower
+554 silly vacuum-fs purging /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-bower
+555 silly vacuum-fs quitting because other entries in /var/www/drupalvm/web/themes/custom/custom_theme/node_modules
+556 verbose unbuild node_modules/es6-promise
+557 info preuninstall es6-promise@4.0.5
+558 info uninstall es6-promise@4.0.5
+559 verbose unbuild rmStuff es6-promise@4.0.5 from /var/www/drupalvm/web/themes/custom/custom_theme/node_modules
+560 info postuninstall es6-promise@4.0.5
+561 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/es6-promise is being purged from base /var/www/drupalvm/web/themes/custom/custom_theme
+562 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/es6-promise
+563 silly vacuum-fs purging /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/es6-promise
+564 silly vacuum-fs quitting because other entries in /var/www/drupalvm/web/themes/custom/custom_theme/node_modules
+565 verbose unbuild node_modules/gulp-sourcemaps
+566 info preuninstall gulp-sourcemaps@1.9.1
+567 info uninstall gulp-sourcemaps@1.9.1
+568 verbose unbuild rmStuff gulp-sourcemaps@1.9.1 from /var/www/drupalvm/web/themes/custom/custom_theme/node_modules
+569 info postuninstall gulp-sourcemaps@1.9.1
+570 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sourcemaps is being purged from base /var/www/drupalvm/web/themes/custom/custom_theme
+571 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sourcemaps
+572 silly vacuum-fs purging /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sourcemaps
+573 silly vacuum-fs quitting because other entries in /var/www/drupalvm/web/themes/custom/custom_theme/node_modules
+574 verbose unbuild node_modules/run-sequence
+575 info preuninstall run-sequence@1.2.2
+576 info uninstall run-sequence@1.2.2
+577 verbose unbuild rmStuff run-sequence@1.2.2 from /var/www/drupalvm/web/themes/custom/custom_theme/node_modules
+578 info postuninstall run-sequence@1.2.2
+579 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/run-sequence is being purged from base /var/www/drupalvm/web/themes/custom/custom_theme
+580 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/run-sequence
+581 silly vacuum-fs purging /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/run-sequence
+582 silly vacuum-fs quitting because other entries in /var/www/drupalvm/web/themes/custom/custom_theme/node_modules
+583 verbose unbuild node_modules/gulp-sass
+584 info preuninstall gulp-sass@2.3.2
+585 info uninstall gulp-sass@2.3.2
+586 verbose unbuild rmStuff gulp-sass@2.3.2 from /var/www/drupalvm/web/themes/custom/custom_theme/node_modules
+587 info postuninstall gulp-sass@2.3.2
+588 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sass is being purged from base /var/www/drupalvm/web/themes/custom/custom_theme
+589 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sass
+590 silly vacuum-fs purging /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-sass
+591 silly vacuum-fs quitting because other entries in /var/www/drupalvm/web/themes/custom/custom_theme/node_modules
+592 verbose unbuild node_modules/gulp-clean
+593 info preuninstall gulp-clean@0.3.2
+594 info uninstall gulp-clean@0.3.2
+595 verbose unbuild rmStuff gulp-clean@0.3.2 from /var/www/drupalvm/web/themes/custom/custom_theme/node_modules
+596 info postuninstall gulp-clean@0.3.2
+597 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-clean is being purged from base /var/www/drupalvm/web/themes/custom/custom_theme
+598 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-clean
+599 silly vacuum-fs purging /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-clean
+600 silly vacuum-fs quitting because other entries in /var/www/drupalvm/web/themes/custom/custom_theme/node_modules
+601 verbose unbuild node_modules/gulp
+602 info preuninstall gulp@3.9.1
+603 info uninstall gulp@3.9.1
+604 verbose unbuild rmStuff gulp@3.9.1 from /var/www/drupalvm/web/themes/custom/custom_theme/node_modules
+605 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/.bin/gulp is being gently removed
+606 silly gentlyRm verifying /var/www/drupalvm/web/themes/custom/custom_theme is an npm working directory
+607 silly gentlyRm containing path /var/www/drupalvm/web/themes/custom/custom_theme is under npm's control, in /var/www/drupalvm/web/themes/custom/custom_theme
+608 silly gentlyRm deletion target /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/.bin/gulp is under /var/www/drupalvm/web/themes/custom/custom_theme
+609 verbose gentlyRm vacuuming from /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/.bin/gulp up to /var/www/drupalvm/web/themes/custom/custom_theme
+610 info postuninstall gulp@3.9.1
+611 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp is being purged from base /var/www/drupalvm/web/themes/custom/custom_theme
+612 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp
+613 silly vacuum-fs purging /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp
+614 silly vacuum-fs quitting because other entries in /var/www/drupalvm/web/themes/custom/custom_theme/node_modules
+615 verbose unbuild node_modules/gulp-postcss
+616 info preuninstall gulp-postcss@6.2.0
+617 info uninstall gulp-postcss@6.2.0
+618 verbose unbuild rmStuff gulp-postcss@6.2.0 from /var/www/drupalvm/web/themes/custom/custom_theme/node_modules
+619 info postuninstall gulp-postcss@6.2.0
+620 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-postcss is being purged from base /var/www/drupalvm/web/themes/custom/custom_theme
+621 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-postcss
+622 silly vacuum-fs purging /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/gulp-postcss
+623 silly vacuum-fs quitting because other entries in /var/www/drupalvm/web/themes/custom/custom_theme/node_modules
+624 verbose unbuild node_modules/bower
+625 info preuninstall bower@1.8.0
+626 info uninstall bower@1.8.0
+627 verbose unbuild rmStuff bower@1.8.0 from /var/www/drupalvm/web/themes/custom/custom_theme/node_modules
+628 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/.bin/bower is being gently removed
+629 silly gentlyRm verifying /var/www/drupalvm/web/themes/custom/custom_theme is an npm working directory
+630 silly gentlyRm containing path /var/www/drupalvm/web/themes/custom/custom_theme is under npm's control, in /var/www/drupalvm/web/themes/custom/custom_theme
+631 silly gentlyRm deletion target /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/.bin/bower is under /var/www/drupalvm/web/themes/custom/custom_theme
+632 verbose gentlyRm vacuuming from /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/.bin/bower up to /var/www/drupalvm/web/themes/custom/custom_theme
+633 info postuninstall bower@1.8.0
+634 silly gentlyRm /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/bower is being purged from base /var/www/drupalvm/web/themes/custom/custom_theme
+635 verbose gentlyRm don't care about contents; nuking /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/bower
+636 silly vacuum-fs purging /var/www/drupalvm/web/themes/custom/custom_theme/node_modules/bower
+637 silly vacuum-fs removing /var/www/drupalvm/web/themes/custom/custom_theme/node_modules
+638 silly vacuum-fs finished vacuuming up to /var/www/drupalvm/web/themes/custom/custom_theme

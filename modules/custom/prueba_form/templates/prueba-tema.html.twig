@@ -1,0 +1,92 @@
+
+<head>
+
+    <script type="text/javascript">
+
+
+    function sumar()
+
+    {
+
+        var valor1=document.getElementById("n1").value;
+
+        var valor2=document.getElementById("n2").value;
+
+
+
+        document.getElementById("n3").value=parseFloat(valor1)+parseFloat(valor2);
+
+    }
+
+ 	</script>
+</head>
+
+<body>
+<h1> HOLA: {{ nombre }}  </h1>
+
+<form>
+
+<p>
+
+<label for="nombre">Nombre: </label>
+
+<input type="text" name="nombre" id="nombre">
+
+<br/> <br/>
+
+<label for="apellido">Apellido: </label>
+
+<input type="text" name="apellido" id="apellido">
+
+<br/> <br/>
+
+<label for="email">Email: </label>
+
+<input type="text" name="email" id="email">
+
+<br/> <br/>
+
+<input type="radio" name="sexo" id="varon" value="Varón">
+
+<label for="varon">Varón: </label>
+
+<br/> <br/>
+
+<input type="radio" name="sexo" id="mujer" value="Mujer">
+
+<label for="mujer">Mujer: </label>
+
+<br/> <br/>
+
+<label for="n1">N1: </label>
+
+<input type="number" name="n1" id="n1" onkeyup="sumar();" >
+
+<br/> <br/>
+
+<label for="n2">N2: </label>
+
+<input type="number" name="n2" id="n2" onkeyup="sumar();" >
+
+<br/> <br/>
+
+
+<label for="n3">N3: </label>
+
+<input type="number" name="n3" id="n3" disabled value="0">
+
+<br/> <br/>
+
+
+
+<input type="submit" value="Enviar">
+
+<input type="reset">
+
+</p>
+
+</form>
+
+
+
+</body>

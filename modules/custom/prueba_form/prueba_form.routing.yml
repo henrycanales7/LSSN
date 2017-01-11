@@ -1,0 +1,6 @@
+prueba_form.escribir:
+  path: /escribir/{nombre}
+  defaults:
+    _controller: "Drupal\prueba_form\Controller\HelloWorld::escribir"
+  requirements:
+    _permission: "access content"

@@ -1,0 +1,6 @@
+name: Form Henry
+type: module
+description: 'Hello world form'
+package: custon
+#version: VERSION
+core: 8.x
